@@ -1,0 +1,14 @@
+{
+  "name" : "gloworange",
+  "effectConfig" : {"pd":"fade=ac522b;0.00?border=0;e7a54800;00000000"},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "fuglow.lua"
+  ],
+
+  "animationConfig" : "gloworange.animation",
+
+  "label" : "Glow",
+  "icon" : "/interface/statuses/glow.png"
+}

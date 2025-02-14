@@ -1,0 +1,11 @@
+{
+  "name" : "headlamp2",
+  "effectConfig" : {},
+  "defaultDuration" : 120,
+
+  "scripts" : [
+    "/stats/effects/fu_genericLightDirection.lua"
+  ],
+
+  "animationConfig" : "headlamp2.animation"
+}

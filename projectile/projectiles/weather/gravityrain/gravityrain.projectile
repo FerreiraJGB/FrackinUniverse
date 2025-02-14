@@ -1,0 +1,19 @@
+{
+  "projectileName" : "gravityrain",
+  "physics" : "weather",
+  "image" : "gravityrain.png",
+  "animationCycle" : 0.4,
+  "frameNumber" : 4,
+  "lightColor" : [44, 26, 140],
+  "pointLight" : true,
+
+  "actionOnReap" : [
+    {
+    "action" : "liquid",
+    "liquid" : "gravrain",
+    "quantity" : 0.5
+    }
+  ],
+  "statusEffects" : [ "gravrain" ],
+  "onlyHitTerrain" : false
+}

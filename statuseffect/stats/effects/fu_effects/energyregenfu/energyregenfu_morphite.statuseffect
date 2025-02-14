@@ -1,0 +1,19 @@
+{
+	"name": "energyregenfu_morphite",
+	"effectConfig": {
+		"stats": [{
+				"stat": "energyRegenPercentageRate",
+				"baseMultiplier": 1.3
+			},
+			{
+				"stat": "energyRegenBlockTime",
+				"baseMultiplier": 0.85
+			}
+		]
+	},
+	"defaultDuration": 120,
+	"scripts": [
+		"/stats/effects/fu_genericStatApplier.lua"
+	],
+	"animationConfig": "energyregenfu.animation"
+}

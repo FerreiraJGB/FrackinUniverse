@@ -1,0 +1,13 @@
+{
+	"name": "slushslowimmunity",
+	"effectConfig": {
+		"stats": [{
+			"stat": "slushslowImmunity",
+			"amount": 1
+		}]
+	},
+	"defaultDuration": 300,
+	"scripts": [
+		"/stats/effects/fu_genericStatApplier.lua"
+	]
+}

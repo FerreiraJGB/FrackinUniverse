@@ -1,0 +1,21 @@
+{
+	"name": "energyregenfu75",
+	"effectConfig": {
+		"stats": [{
+				"stat": "energyRegenPercentageRate",
+				"baseMultiplier": 1.375
+			},
+			{
+				"stat": "energyRegenBlockTime",
+				"baseMultiplier": 0.8125
+			}
+		]
+	},
+	"defaultDuration": 30,
+	"scripts": [
+		"/stats/effects/fu_genericStatApplier.lua"
+	],
+	"animationConfig": "energyregenfu.animation",
+	"label": "+37.5% E. Regen -18.75% E. Block",
+	"icon": "/interface/statuses/energyregen2.png"
+}

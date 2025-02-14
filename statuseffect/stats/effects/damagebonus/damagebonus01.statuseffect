@@ -1,0 +1,16 @@
+{
+  "name" : "damagebonus01",
+  "effectConfig" : {
+    "powerModifier" : 1.07
+  },
+  "defaultDuration" : 60,
+
+  "scripts" : [
+    "damagebonus.lua"
+  ],
+
+  "animationConfig" : "damagebonus.animation",
+
+  "label" : "7% More Dmg",
+  "icon" : "/interface/statuses/rage.png"
+}

@@ -1,0 +1,13 @@
+{
+	"name": "jungleslowimmunity",
+	"effectConfig": {
+		"stats": [{
+			"stat": "fujungleslowImmunity",
+			"amount": 1
+		}]
+	},
+	"defaultDuration": 300,
+	"scripts": [
+		"/stats/effects/fu_genericStatApplier.lua"
+	]
+}

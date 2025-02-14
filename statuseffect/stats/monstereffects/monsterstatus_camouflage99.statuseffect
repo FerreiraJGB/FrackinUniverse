@@ -1,0 +1,10 @@
+{
+  "name" : "monsterstatus_camouflage99",
+  "effectConfig" : {"effectToApply":"camouflage100"},
+  "defaultDuration" : 30,
+
+  "scripts" : [
+    "monsterstatus_camouflage_unified.lua"
+  ],
+  "scriptDelta" : 10
+}

@@ -1,0 +1,18 @@
+{
+  "projectileName" : "teslaboomsmall2",
+  "image" : "teslaboomsmall.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 4,
+  "speed" : 0,
+  "fullbright" : true,
+  "fallSpeed" : 0,
+  "animationLoops" : false,
+  "piercing" : true,
+  "flippable" : true,
+  "pointLight" : true,
+  "lightColor" : [168,175,155],
+  "damagePoly" : [ [-20, 0], [-15, -15], [0, -20], [15, -15], [20, 0], [15, 15], [0, 20], [-15, 15] ],
+  "universalDamage" : true,
+  "damageKind" : "electric",
+  "timeToLive" : 0.2
+}

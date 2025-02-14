@@ -1,0 +1,12 @@
+{
+  "name" : "partytime2",
+  "effectConfig" : {},
+  "defaultDuration" : 120,
+
+  "scripts" : [ "partytime2.lua" ],
+
+  "animationConfig" : "partytime2.animation",
+
+  "label" : "Party Time!",
+  "icon" : "/interface/statuses/levitate.png"
+}

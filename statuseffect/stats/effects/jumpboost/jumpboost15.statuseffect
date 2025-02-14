@@ -1,0 +1,19 @@
+{
+	"name": "jumpboost15",
+	"effectConfig": {
+		"controlModifiers": {
+			"airJumpModifier": 1.15
+		}
+	},
+	"defaultDuration": 1,
+
+	"scripts": [
+		"jumpboostparticles.lua",
+		"/stats/effects/fu_genericControlModifiers.lua"
+	],
+
+	"animationConfig": "jumpboost.animation",
+
+	"label": "+15% Jump Boost",
+	"icon": "/interface/statuses/jumpboost.png"
+}

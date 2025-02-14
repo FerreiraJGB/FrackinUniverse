@@ -1,0 +1,17 @@
+{
+  "name" : "quadjump",
+  "type" : "legs",
+
+  "scripts" : ["fumultijump.lua"],
+  "animator" : "doublejump.animation",
+
+  "description" : "Four jumps for four times the Awesome!",
+  "shortDescription" : "Quad Jump",
+  "rarity" : "Legendary",
+  "icon" : "/tech/quadjump.png",
+
+  "chipCost" : 8,
+
+  "multiJumpCount" : 4,
+  "multiJumpModifier" : 0.70
+}

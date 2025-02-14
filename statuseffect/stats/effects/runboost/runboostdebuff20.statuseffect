@@ -1,0 +1,20 @@
+{
+  "name" : "runboostdebuff20",
+  "blockingStat" : "stunImmunity",
+	"effectConfig": {
+		"controlModifiers": {
+			"speedModifier": 0.8
+		}
+	},
+	"defaultDuration": 5,
+
+	"scripts": [
+		"runboostdebuffvfx.lua",
+		"/stats/effects/fu_genericControlModifiers.lua"
+	],
+
+  "animationConfig" : "/stats/effects/sandstorm/sandstorm.animation",
+
+  "label" : "-20% Run",
+  "icon" : "/interface/statuses/haste.png"
+}

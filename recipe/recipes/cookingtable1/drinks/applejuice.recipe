@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "redapple", "count" : 6 }
+  ],
+  "output" : { "item" : "applejuice", "count" : 1 },
+  "groups" : [ "craftingfood", "drinks", "winepress" ]
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "applejuice", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "methanol",
+    "count" : 2
+  },
+  "groups" : [ "distillery", "all", "other", "material" ]
+}

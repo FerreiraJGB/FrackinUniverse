@@ -1,0 +1,22 @@
+{
+  "itemName" : "oonfortaglobule",
+  "rarity" : "Common",
+  "inventoryIcon" : "oonfortaglobule.png",
+  "image" : "oonfortaglobule.png",
+  "shortdescription" : "Oonforta Globule",
+  "category" : "throwableItem",
+  "description" : "Use this to light up your path.",
+  "ammoUsage" : 1,
+  "itemTags" : [ "thrown_grenade" ],
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+  "piercing" : true,
+  "projectileType" : "oonforta",
+  "projectileConfig" : {
+    "speed" : 55,
+    "power" : 1,
+    "level" : 3
+  }
+}
+

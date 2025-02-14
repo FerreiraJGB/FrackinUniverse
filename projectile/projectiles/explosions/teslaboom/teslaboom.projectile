@@ -1,0 +1,18 @@
+{
+  "projectileName" : "teslaboom",
+  "image" : "teslaboom.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 4,
+  "speed" : 0,
+  "fallSpeed" : 0,
+  "fullbright" : true,
+  "animationLoops" : false,
+  "piercing" : true,
+  "flippable" : true,
+  "pointLight" : true,
+  "lightColor" : [168,175,155],
+  "damagePoly" : [ [-37, 0], [-28, -28], [0, -37], [28, -28], [37, 0], [28, 28], [0, 37], [-28, 28] ],
+  "universalDamage" : true,
+  "damageKind" : "electric",
+  "statusEffects" : [ "electrified" ]
+}

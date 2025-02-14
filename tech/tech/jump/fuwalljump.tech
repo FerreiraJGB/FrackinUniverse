@@ -1,0 +1,31 @@
+{
+  "name" : "fuwalljump",
+  "type" : "legs",
+
+  "scripts" : ["fuwalljump.lua"],
+  "animator" : "walljump.animation",
+
+  "description" : "Wall Jump with one more jump.",
+  "shortDescription" : "Wall Jump II",
+  "rarity" : "Legendary",
+  "icon" : "/tech/walljump2.png",
+
+  "chipCost" : 4,
+
+  "multiJumpCount" : 2,
+  "multiJumpModifier" : 0.65,
+  "wallSensors" : [1.0, 1.75, 2.5],
+  "wallDetectThreshold" : 1,
+
+  "wallReleaseTime" : 0.25,
+
+  "wallGrabFreezeTime" : 0.25,
+  "wallJumpXVelocity" : 20,
+  "wallSlideParameters" : {
+    "airJumpProfile" : {
+      "jumpInitialPercentage" : 1.2
+    },
+    "airForce" : 0,
+    "airFriction" : 10.0
+  }
+}

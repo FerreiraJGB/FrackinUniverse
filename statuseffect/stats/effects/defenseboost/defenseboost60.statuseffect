@@ -1,0 +1,17 @@
+{
+  "name" : "defenseboost60",
+ 	"effectConfig": {
+		"stats": [{
+				"stat": "protection",
+				"amount": 17
+			}
+		]
+	},
+	"defaultDuration": 120,
+	"scripts": [
+		"/stats/effects/fu_genericStatApplier.lua"
+	],
+
+	"label" : "Def +17",
+	"icon" : "/interface/statuses/defense3.png"
+}

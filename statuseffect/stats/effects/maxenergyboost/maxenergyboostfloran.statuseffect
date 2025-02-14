@@ -1,0 +1,9 @@
+{
+  "name" : "maxenergyboostfloran",
+  "effectConfig" : {
+    "energyAmount" : 20
+  },
+  "defaultDuration" : 300,
+
+  "scripts" : [ "maxenergyboost.lua"]
+}

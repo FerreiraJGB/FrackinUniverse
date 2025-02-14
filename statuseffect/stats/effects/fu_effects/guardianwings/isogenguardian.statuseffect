@@ -1,0 +1,11 @@
+{
+  "name" : "isogenguardian",
+  "effectConfig" : {"regenRate":0.005},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "guardianwings.lua"
+  ],
+
+  "animationConfig" : "isogenguardian.animation"
+}

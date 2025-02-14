@@ -1,0 +1,14 @@
+{
+  "name" : "glowyellow",
+  "effectConfig" : {"pd":"fade=F1EA9C;0.00?border=0;F1EA9C00;00000000"},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "fuglow.lua"
+  ],
+
+  "animationConfig" : "glowyellow.animation",
+
+  "label" : "Glow",
+  "icon" : "/interface/statuses/glow.png"
+}

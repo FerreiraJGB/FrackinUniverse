@@ -1,0 +1,14 @@
+{
+  "name" : "ultraglow",
+  "effectConfig" : {"pd":"fade=93BCEF;0.00?border=0;93BCEF00;00000000"},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "fuglow.lua"
+  ],
+
+  "animationConfig" : "ultraglow.animation",
+
+  "label" : "Glow",
+  "icon" : "/interface/statuses/glow.png"
+}

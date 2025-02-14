@@ -1,0 +1,14 @@
+{
+  "name" : "glowgreen",
+  "effectConfig" : {"pd":"fade=11cc11;0.00?border=0;11cc1100;00000000"},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "fuglow.lua"
+  ],
+
+  "animationConfig" : "glowgreen.animation",
+
+  "label" : "Glow",
+  "icon" : "/interface/statuses/glow.png"
+}

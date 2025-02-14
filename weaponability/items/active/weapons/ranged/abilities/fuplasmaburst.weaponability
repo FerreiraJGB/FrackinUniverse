@@ -1,0 +1,69 @@
+{
+  "animationParts" : { },
+  "animationCustom" : {
+    "sounds" : {
+      "altFire" : [ "/sfx/weapons/charging.wav" ]
+    }
+  },
+
+  "ability" : {
+    "name" : "Plasma Burst",
+    "type" : "fuplasmaburst",
+    "scripts" : ["/items/active/weapons/ranged/abilities/altfire.lua"],
+    "class" : "AltFireAttack",
+
+    "projectileType" : "plasmablast",
+    "projectileParameters" : {
+      "speed" : 55,
+      "knockback" : 25,
+      "actionOnReap" : [
+	    {
+	      "action" : "projectile",
+	      "inheritDamageFactor" : 0,
+	      "type" : "plasmaboom"
+	    },
+	    {
+	      "action" : "explosion",
+	      "foregroundRadius" : 8,
+	      "backgroundRadius" : 4,
+	      "explosiveDamageAmount" : 4,
+	      "delaySteps" : 0
+	    },
+	    {
+	      "action" : "sound",
+	      "options" : [ "/sfx/weapons/plasmaexplosion.ogg" ]
+	    }
+      ]
+    },
+
+    "baseDamage" : 14,
+    "energyUsage" : 60,
+
+    "fireTime" : 2.0,
+    "projectileCount" : 1,
+    "inaccuracy" : 0,
+
+    "useParticleEmitter" : false,
+
+    "stances" : {
+      "fire" : {
+        "duration" : 0.15,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.15,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  }
+}

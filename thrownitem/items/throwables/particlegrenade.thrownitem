@@ -1,0 +1,22 @@
+{
+  "itemName" : "particlegrenade",
+  "rarity" : "Rare",
+  "inventoryIcon" : "particlegrenade.png",
+  "image" : "particlegrenade.png",
+  "shortdescription" : "Particle Grenade",
+  "description" : "Eradicates large swathes of terrain.",
+  "ammoUsage" : 1,
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+  "itemTags" : [ "thrown_grenade" ],
+//  "learnBlueprintsOnPickup" : [ "neutronbomb" ],
+  "category" : "throwableItem",
+  "projectileType" : "particlegrenadeblast",
+  "projectileConfig" : {
+    "speed" : 52,
+    "power" : 15,
+    "level" : 7
+  }
+}
+

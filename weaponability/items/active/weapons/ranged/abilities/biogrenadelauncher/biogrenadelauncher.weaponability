@@ -1,0 +1,80 @@
+{
+  "animationCustom" : {
+    "animatedParts" : { "parts" : {
+      "grenadelauncher" : {
+        "properties" : {
+          "zLevel" : -1,
+          "centered" : true,
+          "offset" : [0, -0],
+          "transformationGroups" : ["muzzle"],
+          "firePosition" : [0, 0]
+        }
+      }
+    }},
+    "sounds" : {
+      "altFire" : [ "/sfx/weapons/biolaunch.ogg" ]
+    },
+    "particleEmitters" : {
+      "altMuzzleFlash" : {
+        "active" : false,
+        "emissionRate" : 8,
+        "transformationGroups" : ["muzzle"],
+        "offsetRegion" : [-0.25, -0.5, -0.25, -0.5],
+        "particles" : [
+          { "particle" : "yellowgas", "offset" : [0.0, 0.0] },
+          { "particle" : "yellowgas", "offset" : [0.0, 0.0] },
+          { "particle" : "yellowgas", "offset" : [0.0, 0.0] }
+        ]
+      }
+    }
+  },
+
+  "ability" : {
+    "name" : "Bio Launcher",
+    "type" : "biogrenadelauncher",
+    "scripts" : ["/items/active/weapons/ranged/abilities/altfire.lua"],
+    "class" : "AltFireAttack",
+
+    "elementalConfig" : {
+      "physical" : { "projectileType" : "ffslimeblob" },
+      "fire" : { "projectileType" : "napalmprojectile" },
+      "electric" : { "projectileType" : "ffteslasmall" },
+      "ice" : { "projectileType" : "fuicecloud" },
+      "poison" : { "projectileType" : "greenglobeforce" }
+    },
+    "projectileParameters" : {
+      "speed" : 40
+    },
+    "projectileCount" : 1,
+    "inaccuracy" : 0,
+    "baseDamage" : 6,
+    "energyUsage" : 80,
+    "fireTime" : 4.0,
+    "fireType" : "auto",
+    "spinRate" : 0,
+
+    "firePositionPart" : "grenadelauncher",
+    "hidePrimaryMuzzleFlash" : true,
+
+    "stances" : {
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.11,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  }
+}

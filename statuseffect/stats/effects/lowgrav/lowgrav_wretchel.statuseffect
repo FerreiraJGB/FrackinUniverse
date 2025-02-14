@@ -1,0 +1,16 @@
+{
+  "name" : "lowgrav_wretchel",
+  "effectConfig" : {
+    "gravityMod" : -1
+  },
+  "defaultDuration" : 120,
+
+  "scripts" : [
+    "/scripts/unifiedGravMod.lua"
+  ],
+
+  "animationConfig" : "lowgrav.animation",
+
+  "label" : "Reverse-Grav Field",
+  "icon" : "/interface/statuses/lowgrav.png"
+}

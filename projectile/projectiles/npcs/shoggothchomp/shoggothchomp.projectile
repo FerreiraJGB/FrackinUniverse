@@ -1,0 +1,18 @@
+{
+  "projectileName" : "shoggothchomp",
+  "piercing" : true,
+  "timeToLive" : 0.01,
+  "image" : "/projectiles/invisibleprojectile/invisibleprojectile.png",
+  "frameNumber" : 1,
+  "power" : 10,
+  "damagePoly" : [ [0, 0], [0, 0], [0, 0], [0, 0] ],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/shoggothchompexplosion/shoggothchompexplosion.config"
+    }
+  ],
+  "damageKind" : "poison",
+  "statusEffects" : [ "defenseboostneg35monster" ]
+}
+

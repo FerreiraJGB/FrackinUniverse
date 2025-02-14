@@ -1,0 +1,14 @@
+{
+  "name" : "glowblue2",
+  "effectConfig" : {"pd":"fade=93BCEF;0.00?border=0;93BCEF00;00000000"},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "fuglow.lua"
+  ],
+
+  "animationConfig" : "glowblue2.animation",
+
+  "label" : "Glow",
+  "icon" : "/interface/statuses/glow.png"
+}

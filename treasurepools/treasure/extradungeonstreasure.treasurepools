@@ -1,0 +1,128 @@
+{
+  "humanBunkerLore" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.08, "item" : [ "humanhistory1-codex", 1]},
+        {"weight" : 0.08, "item" : [ "humanhistory2-codex", 1]},
+        {"weight" : 0.08, "item" : [ "humanhistory3-codex", 1]},
+        {"weight" : 0.08, "item" : [ "humanhistory4-codex", 1]},
+        {"weight" : 0.08, "item" : [ "humanhistory5-codex", 1]},
+        {"weight" : 0.08, "item" : [ "humanhistory6-codex", 1]},
+        {"weight" : 0.08, "item" : [ "humanhistory7-codex", 1]},
+        {"weight" : 0.08, "item" : [ "humanhistory8-codex", 1]},
+        {"weight" : 0.08, "item" : [ "humanhistory9-codex", 1]},
+        {"weight" : 0.08, "item" : [ "humanhistory10-codex", 1]},
+        {"weight" : 0.45, "item" : [ "bookpiles", 5]},
+        {"weight" : 0.45, "item" : [ "bookpiles", 3]}
+      ],
+      "poolRounds" : [
+        [0.1, 0],
+        [0.5, 1],
+        [0.1, 2]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+	// Generic //
+
+	"exsupertreasure" : [
+		[0, {
+		"pool" : [
+			{"weight" : 0.02, "item" : ["diamond", 4]},
+			{"weight" : 0.02, "item" : [ "goldbar", 8]},
+			{"weight" : 0.60, "pool" : "money"},
+			{"weight" : 0.02, "pool" : "uncommonGun"},
+			{"weight" : 0.02, "pool" : "uncommonMelee"},
+			{"weight" : 0.02, "pool" : "shield"},
+			{"weight" : 0.02, "pool" : "rareGun"},
+			{"weight" : 0.02, "pool" : "legendaryGun"},
+			{"weight" : 0.26, "pool" : "ffbasicTreasure"}
+		],
+
+		"poolRounds" : [
+			[0.40, 2],
+			[0.30, 3],
+			[0.20, 4]
+      ],
+
+      "allowDuplication" : true
+    }]
+  ],
+
+  // Dungeon Specific //
+
+  	"crystalminingtreasure" : [
+		[0, {
+		"pool" : [
+			{"weight" : 0.5, "item" : ["crystal", 12]},
+			{"weight" : 0.4, "item" : ["crystal", 25]},
+			{"weight" : 0.12, "item" : ["icecrystal", 1]},
+			{"weight" : 0.09, "item" : [ "icecrystal", 3]},
+			{"weight" : 0.07, "item" : [ "ff_icechucker", 1]},
+			{"weight" : 0.05, "item" : [ "mineralpistol-recipe", 1]},
+			{"weight" : 0.03, "item" : [ "sciencefuchest-recipe", 1]},
+			{"weight" : 0.03, "item" : [ "sciencefulegs-recipe", 1]},
+			{"weight" : 0.03, "item" : [ "sciencefuhead-recipe", 1]},
+			{"weight" : 0.1, "item" : [ "liquidnitrogenitem", 30]},
+			{"weight" : 0.4, "pool" : "ffbasicTreasure"}
+		],
+
+		"poolRounds" : [
+			[0.40, 1],
+			[0.30, 2],
+			[0.30, 3]
+      ],
+
+      "allowDuplication" : true
+    }]
+  ],
+
+  // NPC specific //
+
+     	"gasthrowertreasure" : [
+		[0, {
+		"pool" : [
+			{"weight" : 1.0, "item" : "isn_flamethrower" },
+			{"weight" : 9.0, "pool" : "guardtreasure"}
+		],
+
+		"poolRounds" : [
+			[1.0, 1]
+      ],
+
+      "allowDuplication" : true
+    }]
+  ],
+
+  // Boss Specific //
+
+    	"verdantkingtreasure" : [
+		[0, {
+		"pool" : [
+			{"weight" : 1.0, "item" : ["beammasterhelm", 1]}
+		],
+
+		"poolRounds" : [
+			[1.0, 1]
+      ],
+
+      "allowDuplication" : true
+    }]
+  ],
+
+		"dachacommissartreasure" : [
+		[0, {
+		"pool" : [
+			{"weight" : 1.0, "item" : ["pickmeup", 5]}
+		],
+
+		"poolRounds" : [
+			[1.0, 1]
+      ],
+
+      "allowDuplication" : true
+    }]
+  ]
+
+}

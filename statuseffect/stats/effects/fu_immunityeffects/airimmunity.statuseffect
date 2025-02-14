@@ -1,0 +1,19 @@
+{
+  "name" : "airimmunity",
+  "effectConfig" : {
+		"stats": [{
+				"stat": "breathProtection",
+				"amount": 1
+			},
+			{
+				"stat": "waterbreathProtection",
+				"amount": 1
+			}
+		]
+	},
+  "defaultDuration" : 300,
+
+  "scripts": [
+		"/stats/effects/fu_genericStatApplier.lua"
+	]
+}

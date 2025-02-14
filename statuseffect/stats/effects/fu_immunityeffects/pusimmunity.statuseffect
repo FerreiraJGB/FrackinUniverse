@@ -1,0 +1,15 @@
+{
+	"name": "pusimmunity",
+	"effectConfig": {
+		"stats": [{
+			"stat": "pusImmunity",
+			"amount": 1
+		}]
+	},
+	"defaultDuration": 300,
+	"scripts": [
+		"/stats/effects/fu_genericStatApplier.lua"
+	],
+	"label": "Pus Proof",
+	"icon": "/interface/statuses/antidote.png"
+}

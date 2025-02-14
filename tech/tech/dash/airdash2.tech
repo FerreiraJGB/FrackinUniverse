@@ -1,0 +1,23 @@
+{
+  "name" : "airdash2",
+  "type" : "body",
+
+  "scripts" : ["combatmaneuvering1.lua"],
+  "animator" : "dashcombatmaneuver.animation",
+
+  "description" : "Stronger Air Dash, Cooldown: 0.9s",
+  "shortDescription" : "Air Dash II",
+  "rarity" : "Legendary",
+  "icon" : "/tech/airdash2.png",
+
+  "chipCost" : 6,
+
+  "maximumDoubleTapTime" : 0.25,
+  "dashControlForce" : 2000,
+  "dashSpeed" : 65,
+  "dashDuration" : 0.15,
+  "dashCooldown" : 0.78,
+  "stopAfterDash" : false,
+  "groundOnly" : false,
+  "allowJump" : 1
+}
