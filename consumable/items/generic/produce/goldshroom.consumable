@@ -1,0 +1,18 @@
+{
+	"itemName": "goldshroom",
+	"inventoryIcon": "goldshroom.png",
+	"category": "food",
+	"rarity": "Common",
+	"price": 10,
+
+	"tooltipKind": "food",
+	"description": "^yellow;^reset;^#b3b398;Glow^reset;: 2m",
+	"shortdescription": "Gold Shroom",
+
+	"effects": [
+		[{
+			"effect": "glow",
+			"duration": 120
+		}]
+	]
+}

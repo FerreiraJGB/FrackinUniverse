@@ -1,0 +1,11 @@
+{
+  "itemName" : "fuprocessor",
+  "rarity" : "rare",
+  "price" : 380,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "fuprocessor.png",
+  "description" : "Top-of-the-line computing power.",
+  "shortdescription" : "^#88e25b;Quantum Processor^reset;",
+  //"learnBlueprintsOnPickup" : [ "aichip", "artillerygun","centrifuge" ],
+  "itemTags" : [ "reagent" ]
+}

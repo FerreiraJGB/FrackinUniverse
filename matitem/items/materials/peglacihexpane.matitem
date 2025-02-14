@@ -1,0 +1,15 @@
+{
+    "itemName": "peglacihexpane",
+    "category": "block",
+    "rarity": "Common",
+    "inventoryIcon": "peglacihexpane.png",
+    "dropCollision": [
+        -2.5,
+        -2.0,
+        2.5,
+        2.0
+    ],
+    "description": "A panel of crystal with hexagonal tiles.\n^green;Extractable^reset;.",
+    "shortdescription": "Hexpane Panel",
+    "materialId": 3498
+}

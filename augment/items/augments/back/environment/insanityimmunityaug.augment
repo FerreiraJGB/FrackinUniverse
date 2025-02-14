@@ -1,0 +1,21 @@
+{
+  "itemName" : "insanityimmunityaug",
+  "price" : 1000,
+  "rarity" : "rare",
+  "category" : "eppAugment",
+  "inventoryIcon" : "insanityaugment.png",
+  "description" : "An EPP module that protects against insanity. ^cyan;Immune: Insanity^reset;",
+  "shortdescription" : "Insanity Shield",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "insanityimmunityaug",
+    "displayName" : "Madness Shield",
+    "displayIcon" : "/items/augments/back/environment/insanityaugment.png",
+    "effects" : [ "insanityimmunity" ]
+  },
+
+  "radioMessagesOnPickup" : [ "pickupaugment" ],
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

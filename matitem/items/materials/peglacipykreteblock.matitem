@@ -1,0 +1,15 @@
+{
+    "itemName": "peglacipykreteblock",
+    "category": "block",
+    "rarity": "Common",
+    "inventoryIcon": "peglacipykreteblock.png",
+    "dropCollision": [
+        -2.5,
+        -2.0,
+        2.5,
+        2.0
+    ],
+    "description": "A block made of pykrete.\n^green;Extractable^reset;.",
+    "shortdescription": "Pykrete Block",
+    "materialId": 3503
+}

@@ -1,0 +1,12 @@
+{
+  "itemName" : "mutaviskthread",
+  "rarity" : "rare",
+  "price" : 60,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "mutaviskthread.png",
+  "description" : "A versatile, resistant thread made from Mutavisk plants.",
+  "shortdescription" : "Bio Thread",
+  "radioMessagesOnPickup" : [ "pickupMutaviskthread" ],
+  //"learnBlueprintsOnPickup" : [ "mutaviskbandage", "mutaviskhead", "mutaviskchest", "mutavisklegs"  ],
+  "itemTags" : [ "reagent" ]
+}

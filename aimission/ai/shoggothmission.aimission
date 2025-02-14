@@ -1,0 +1,19 @@
+{
+  "missionName" : "shoggothmission",
+  "icon" : "shoggothdungeonarrivalicon.png",
+  "missionWorld" : "eldershoggoth",
+
+  "speciesText" : {
+    "default" : {
+      "buttonText" : "^#7fac66;Delta Freya II^reset; (7+)",
+      "repeatButtonText" : "^#7fac66;Delta Freya II^reset; (7+)(R)",
+      "selectSpeech" : {
+        "animation" : "talk",
+        "text" : "There is no communication from this remote outpost. Investigate why.",
+        "speedModifier" : 1.0
+      }
+    }
+  }
+}
+
+

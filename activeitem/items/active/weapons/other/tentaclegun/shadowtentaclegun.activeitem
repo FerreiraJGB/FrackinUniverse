@@ -1,0 +1,181 @@
+{
+  "itemName" : "shadowtentaclegun",
+  "level" : 7,
+  "price" : 500,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "This creation fires controlled shadow threads. Weird.
+^cyan;Debilitating debuffs. Elder/Bio^reset;
+^green;alt-fire Dooms enemies^reset;",
+  "shortdescription" : "Shadow Lurch",
+  "tooltipKind" : "gun2",
+  "category" : "bioweapon",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","bioweapon","elder","upgradeableWeapon","shadow"],
+
+  "inventoryIcon" : "shadowtentaclegun.png",
+
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "shadowtentaclegun.png",
+    "barrel" : "",
+    "muzzleFlash" : ""
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/gun/wormgun1.ogg", "/sfx/gun/wormgun2.ogg", "/sfx/gun/wormgun3.ogg" ],
+      "altFire" : [ "/sfx/gun/wormgun_burst.ogg" ]
+    }
+  },
+  "baseOffset" : [-0.06, 0.2],
+  "muzzleOffset" : [1.4, 0.15],
+
+
+  "critChance" : 4,
+  "critBonus" : 5,
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "shadow",
+
+  "primaryAbilityType" : "shadowtentaclegun",
+  "primaryAbility" : {
+    "chain" : {
+      "taper" : 0.3,
+      "segmentImage" : "/items/active/weapons/other/tentaclegun/shadowsegment.png",
+      "endSegmentImage" : "/items/active/weapons/other/tentaclegun/shadowend.png",
+      "segmentSize" : 0.6
+    },
+
+    "guideProjectiles" : true,
+    "maxLength" : 2,
+
+    "baseDps" : 10.5,
+    "fireTime" : 0.25,
+    "maxProjectiles" : 20,
+    "energyUsage" : 40,
+    "inaccuracy" : 0.01,
+
+    "projectileType" : "invisibletentaclefist",
+    "projectileParameters" : {
+      "knockback" : 12,
+      "speed" : 60,
+      "timeToLive" : 0.5,
+      "damageKind" : "shadow",
+      "statusEffects" : [ "shadowgasfx", "blacktarslow" ],
+      "actionOnReap" : [
+
+	    {
+	      "action" : "projectile",
+	      "type" : "fungravityexplosion",
+	      "fuzzAngle" : 0,
+	      "inheritDamageFactor" : 0.01,
+	      "config" : { "speed" :0, "timeToLive" : 1},
+	      "angleAdjust" : 0
+	    }
+      ]
+    }
+  },
+
+  "altAbilityType" : "shadowtentaclegun",
+  "altAbility" : {
+    "name" : "Tentacle Burst",
+
+    "chain" : {
+      "taper" : 0.5,
+      "segmentImage" : "/items/active/weapons/other/tentaclegun/shadowsegment.png",
+      "endSegmentImage" : "/items/active/weapons/other/tentaclegun/shadowend.png",
+      "segmentSize" : 1.0
+    },
+
+    "guideProjectiles" : false,
+
+    "baseDps" : 15.5,
+
+    "fireTime" : 3.0,
+    "maxProjectiles" : 20,
+    "energyUsage" : 50,
+    "inaccuracy" : 3.14,
+
+    "fireSound" : "altFire",
+
+    "projectileCount" : 20,
+    "projectileType" : "invisibletentaclefistnosound",
+    "projectileTracksUser" : true,
+    "projectileParameters" : {
+      "knockback" : 30,
+      "knockbackDirectional" : true,
+      "speed" : 30,
+      "ignoreTerrain" : false,
+      "bounces" : 2,
+      "timeToLive" : 2,
+      "minVelocity" : 20,
+      "damageKind" : "shadow",
+      "periodicActions" : [
+	    {
+	      "time" : 0.1,
+	      "repeat" : false,
+	      "action" : "projectile",
+	      "type" : "deathzone",
+	      "fuzzAngle" : 0,
+	      "inheritDamageFactor" : 0.01,
+	      "config" : { "speed" :2, "timeToLive" : 0.2},
+	      "angleAdjust" : 0
+	    },
+	    {
+	      "time" : 0.5,
+	      "repeat" : false,
+	      "action" : "projectile",
+	      "type" : "deathzone",
+	      "fuzzAngle" : 0,
+	      "inheritDamageFactor" : 0.01,
+	      "config" : { "speed" :2, "timeToLive" : 0.2},
+	      "angleAdjust" : 0
+	    },
+	    {
+	      "time" : 0.9,
+	      "repeat" : false,
+	      "action" : "projectile",
+	      "type" : "deathzone",
+	      "fuzzAngle" : 0,
+	      "inheritDamageFactor" : 0.01,
+	      "config" : { "speed" :2, "timeToLive" : 0.2},
+	      "angleAdjust" : 0
+	    },
+	    {
+	      "time" : 1.3,
+	      "repeat" : false,
+	      "action" : "projectile",
+	      "type" : "deathzone",
+	      "fuzzAngle" : 0,
+	      "inheritDamageFactor" : 0.01,
+	      "config" : { "speed" :2, "timeToLive" : 0.2},
+	      "angleAdjust" : 0
+	    },
+	    {
+	      "time" : 1.7,
+	      "repeat" : false,
+	      "action" : "projectile",
+	      "type" : "deathzone",
+	      "fuzzAngle" : 0,
+	      "inheritDamageFactor" : 0.01,
+	      "config" : { "speed" :2, "timeToLive" : 0.2},
+	      "angleAdjust" : 0
+	    }
+      ],
+      "actionOnReap" : [
+	    {
+	      "action" : "projectile",
+	      "type" : "deathzone",
+	      "fuzzAngle" : 0,
+	      "inheritDamageFactor" : 0.01,
+	      "config" : { "speed" :0, "timeToLive" : 1},
+	      "angleAdjust" : 0
+	    }
+      ]
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

@@ -1,0 +1,22 @@
+{
+  "materialId" : 6747,
+  "materialName" : "labwallfence",
+  "particleColor" : [135, 135, 135, 255],
+  "itemDrop" : "labwallfence",
+  "description" : "Sturdy plasteel. Great for building.",
+  "shortdescription" : "Plasteel Fencing",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 10,
+  "category": "materials",
+  "blocksLiquidFlow" : false,
+
+  "renderTemplate" : "/tiles/fuclassicnopaint.config",
+  "renderParameters" : {
+    "texture" : "labwallfence.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 50
+  }
+}

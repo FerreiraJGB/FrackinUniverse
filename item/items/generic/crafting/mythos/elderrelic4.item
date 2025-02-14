@@ -1,0 +1,11 @@
+{
+  "itemName" : "elderrelic4",
+  "price" : 600,
+  "rarity" : "rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "elderrelic4.png",
+  "description" : "This glowing device is marked with ancient, unknown script.",
+  "shortdescription" : "^#ffe50e;Engraved Device^reset;",
+  "itemTags" : [ "reagent","artifactElder" ]//,
+  //"collectablesOnPickup" : { "fu_elderrelics" : "elderrelic4" }
+}

@@ -1,0 +1,31 @@
+{
+	"itemName": "wretchel",
+	"inventoryIcon": "wretchel.png",
+	"category": "food",
+	"rarity": "Legendary",
+	"price": 20,
+
+	"tooltipKind": "food",
+	"description": "^yellow;^reset;^cyan;100% HP Damage Barrier^reset;: 1m\n^yellow;^reset;^red;Wretchel Poisoning^reset;: 1m",
+	"shortdescription": "Wretchel Fruit",
+
+	//"learnBlueprintsOnPickup": [
+	//	"batterypack_morphite",
+	//	"wretchelchest",
+	//	"wretchelhead",
+	//	"wretchelpants",
+	//	"wretchelpoultice"
+	//],
+	"effects": [
+		[
+			{
+				"effect": "wretchelshield",
+				"duration": 60
+			},
+			{
+				"effect": "wretchelpoisoning",
+				"duration": 60
+			}
+		]
+	]
+}

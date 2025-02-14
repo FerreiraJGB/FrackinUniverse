@@ -1,0 +1,19 @@
+{
+	"itemName": "dragonsbeard",
+	"inventoryIcon": "dragonsbeard.png",
+	"category": "food",
+	"rarity": "Legendary",
+	"price": 10,
+
+	"tooltipKind": "food",
+	"description": "^yellow;^reset;^cyan;Immune^reset;: Extreme Heat: 2m",
+	"shortdescription": "Dragon's Beard Herb",
+
+	"effects": [
+		[{
+			"effect": "ffextremeheatimmunity",
+			"duration": 120
+		}]
+	],
+	"blockingEffects": ["ffextremeheatimmunity"]
+}

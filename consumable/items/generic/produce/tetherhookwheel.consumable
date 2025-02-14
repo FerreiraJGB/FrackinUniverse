@@ -1,0 +1,17 @@
+{
+	"itemName": "tetherhookwheel",
+	"inventoryIcon": "tetherhookwheel.png",
+	"category": "food",
+	"rarity": "Legendary",
+	"price": 20,
+
+	"tooltipKind": "food",
+	"description": "^yellow;^reset;^cyan;When near death, teleport^reset;: 5s",
+	"shortdescription": "Tetherhook Wheel",
+	"effects": [
+		[{
+			"effect": "warp",
+			"duration": 5
+		}]
+	]
+}

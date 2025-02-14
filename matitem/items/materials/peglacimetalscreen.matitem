@@ -1,0 +1,15 @@
+{
+    "itemName": "peglacimetalscreen",
+    "category": "block",
+    "rarity": "Common",
+    "inventoryIcon": "peglacimetalscreen.png",
+    "dropCollision": [
+        -2.5,
+        -2.0,
+        2.5,
+        2.0
+    ],
+    "description": "A metal screen decorated with Peglaci glyphs.\n^green;Extractable^reset;.",
+    "shortdescription": "Alloy Screen",
+    "materialId": 3512
+}

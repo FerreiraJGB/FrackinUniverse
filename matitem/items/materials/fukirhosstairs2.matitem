@@ -1,0 +1,11 @@
+{
+  "itemName" : "fukirhosstairs2",
+  "price" : 0,
+  "category" : "platform",
+  "rarity" : "Common",
+  "inventoryIcon" : "fukirhosstairs2.png",
+  "shortdescription" : "Alloy red stairs",
+  "description" : "A sturdy looking metal stair.",
+
+  "materialId" : 6017
+}

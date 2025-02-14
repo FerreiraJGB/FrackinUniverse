@@ -1,0 +1,19 @@
+{
+	"itemName": "ighantbulb",
+	"inventoryIcon": "ighantbulb.png",
+	"category": "food",
+	"rarity": "Rare",
+	"price": 5,
+
+	"tooltipKind": "food",
+	"description": "^yellow;^reset;^cyan;Bouncy, Immune to Fall Damage^reset;: 1m",
+	"shortdescription": "Ighant Bulb",
+
+	//"learnBlueprintsOnPickup": ["banespear"],
+	"effects": [
+		[{
+			"effect": "bouncy",
+			"duration": 60
+		}]
+	]
+}

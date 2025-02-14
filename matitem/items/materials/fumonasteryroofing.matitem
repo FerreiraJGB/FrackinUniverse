@@ -1,0 +1,11 @@
+{
+  "itemName" : "fumonasteryroofing",
+  "category" : "block",
+  "rarity" : "Common",
+  "price" : 0,
+  "inventoryIcon" : "fumonasteryroofing.png",
+  "description" : "A roof of Shoji design.",
+  "shortdescription" : "Shoji Roofing",
+
+  "materialId" : 6649
+}

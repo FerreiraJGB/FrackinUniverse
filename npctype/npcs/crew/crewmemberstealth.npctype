@@ -1,0 +1,84 @@
+{
+  "type" : "crewmemberstealth",
+  "baseType" : "fu_crewmember",
+
+  "scriptConfig" : {
+    "crew" : {
+      "defaultUniform" : {
+        "head" : "fudarkrobeshelmetnpc",
+        "chest" : "fudarkrobeschestnpc",
+        "legs" : "fudarkrobespantsnpc"
+      },
+
+      "role" : {
+        "type" : "chemist",
+        "name" : "Assassin",
+        "field" : "Murderology",
+        "uniformColorIndex" : 6,
+
+        "benefits" : [
+          {
+            // Ephemeral effects gained upon leaving the ship
+            "type" : "EphemeralEffect",
+            "effect" : "poisonblock2",
+            "duration" : 300
+          },
+          {
+            // Ephemeral effects gained upon leaving the ship
+            "type" : "EphemeralEffect",
+            "effect" : "biooozeimmunity",
+            "duration" : 300
+          },
+    	  {
+    	    "type": "ShipUpgradeBenefit",
+    	    "property": "maxFuel",
+    	    "value": 160
+    	  }
+        ]
+      }
+    },
+
+    "dialog" : {
+      "crewmember" : {
+        "roleDescription" : {
+          "default" : {
+            "default" : [
+              "I'll toss some contraband fuel into the fuel tank."
+            ]
+          },
+          "floran" : {
+            "default" : [
+              "Floran putsss fuel into fuel tank."
+            ]
+          },
+          "glitch" : {
+            "default" : [
+              "Statement. I'll put some contraband fuel into the fuel tank."
+            ]
+          }
+        },
+        "combatBenefit" : {
+          "default" : {
+            "default" : [
+              "I've made you immune to poisons!",
+              "Need an antidote?",
+              "Looks like you could use my assistance!",
+              "I can help cure poison!"
+            ]
+          }
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "default" : [
+      [0, [
+          {
+            "primary" : [ "thornrifle" ],
+            "sheathedprimary" : [ "spikesword" ]
+          }
+        ] ]
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+	"itemName": "zathitails",
+	"inventoryIcon": "zathitails.png",
+	"category": "food",
+	"rarity": "Rare",
+	"price": 5,
+
+	"tooltipKind": "food",
+	"description": "^yellow;^reset;^cyan;+30% Cosmic Res^reset;: 3m",
+	"shortdescription": "Zathi Node",
+
+	"effects": [
+		[{
+			"effect": "cosmicblock3",
+			"duration": 180
+		}]
+	]
+}

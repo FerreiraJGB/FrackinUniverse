@@ -1,0 +1,35 @@
+{
+  "materialId" : 6561,
+  "materialName" : "frozensand2",
+  "particleColor" : [190, 214, 232, 225],
+  "itemDrop" : "frozensand2material",
+  "description" : "Sand covered in ice.",
+  "shortdescription" : "Frozen Sand",
+  "footstepSound" : "/sfx/blocks/footstep_sand2.ogg",
+  "soil" : true,
+  "health" : 3,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "frozensand2.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true
+  },
+
+  "liquidInteractions" : [
+    {
+      "liquidId" : 2,
+      "consumeLiquid" : 0.35,
+      "transformMaterialId" : 31
+    },
+    {
+      "liquidId" : 52,
+      "consumeLiquid" : 0.35,
+      "transformMaterialId" : 31
+    }
+  ]
+}
+

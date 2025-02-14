@@ -1,0 +1,15 @@
+{
+    "itemName": "coralmaterial",
+    "category": "block",
+    "rarity": "Common",
+    "inventoryIcon": "coralmaterial.png",
+    "dropCollision": [
+        -2.5,
+        -2.0,
+        2.5,
+        2.0
+    ],
+    "description": "A block of ancient coral.\n^green;Extractable^reset;, ^orange;Crushable^reset;.",
+    "shortdescription": "Coral",
+    "materialId": 6547
+}

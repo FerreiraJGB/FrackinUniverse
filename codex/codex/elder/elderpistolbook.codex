@@ -1,0 +1,15 @@
+{
+  "id" : "elderpistolbook",
+  "species" : "elder",
+  "title" : "Strange Schematic",
+  "description" : "Schematics for some abhorrent weapon",
+  "icon" : "eldertome9.png",
+  "contentPages" : [
+  "The sidearm pictured seems to be crafted from 3 different core materials: An Elder Artifact, one Elder Fragment and an Elder Core."
+  ],
+
+    "itemConfig" : {
+    "rarity" : "legendary",
+    "price" : 25
+  }
+}

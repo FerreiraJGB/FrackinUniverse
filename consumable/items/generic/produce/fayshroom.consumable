@@ -1,0 +1,18 @@
+{
+	"itemName": "fayshroom",
+	"category": "food",
+	"inventoryIcon": "fayshroom.png",
+	"rarity": "Rare",
+	"price": 10,
+
+	"tooltipKind": "food",
+	"description": "^yellow;^reset;^cyan;120% Gas Thorns^reset;: 1m",
+	"shortdescription": "Fayshroom",
+
+	"effects": [
+		[{
+			"effect": "burstfayshroom",
+			"duration": 60
+		}]
+	]
+}

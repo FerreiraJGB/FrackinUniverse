@@ -1,0 +1,22 @@
+{
+  "itemName" : "fudefenseaugment3",
+  "price" : 300,
+  "rarity" : "rare",
+  "category" : "eppAugment",
+  "tooltipKind" : "eppaugment",
+  "inventoryIcon" : "defenseaugment3.png",
+  "description" : "An EPP module that multiplies Defense by 1.1.",
+  "shortdescription" : "Kinetic Field III",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "fudefenseaugment3",
+    "displayName" : "Kinetic Field III",
+    "displayIcon" : "/items/augments/back/protection/defenseaugment3.png",
+    "effects" : [ "percentarmorboost10augment" ]
+  },
+ // "learnBlueprintsOnPickup" : [ "fudefenseaugment4" ],
+  "radioMessagesOnPickup" : [ "pickupaugment" ],
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

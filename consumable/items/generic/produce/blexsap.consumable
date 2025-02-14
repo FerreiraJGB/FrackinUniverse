@@ -1,0 +1,27 @@
+{
+	"itemName": "blexsap",
+	"inventoryIcon": "blexsap.png",
+	"category": "food",
+	"rarity": "Uncommon",
+	"price": 5,
+
+	"tooltipKind": "food",
+	"description": "^yellow;^reset;^cyan;+10% E. Regen & -5% E. Regen Block^reset;: 1m",
+	"shortdescription": "Blex Cactus Sap",
+
+	"effects": [
+		[{
+			"effect": "energyregenfu20",
+			"duration": 60
+		}]
+	],
+	"blockingEffects": [
+		"energyregenfu50",
+		"energyregenfu10",
+		"energyregenfu60",
+		"energyregenfu25",
+		"energyregenfu35",
+		"energyregenfu05",
+		"energyregenfu40"
+	]
+}

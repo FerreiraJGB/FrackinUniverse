@@ -1,0 +1,28 @@
+{
+  "materialId" : 6648,
+  "materialName" : "warttile",
+  "particleColor" : [164, 81, 196, 255],
+  "itemDrop" : "warttile",
+  "description" : "This putrid ground is ripe with warts filled with...stuff.",
+  "shortdescription" : "Warts",
+  "footstepSound" : "/sfx/blocks/footstep_brains.ogg",
+  "health" : 3.5,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "warttile.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 20
+  },
+  "liquidInteractions" : [
+    {
+      "liquidId" : 46,
+      "consumeLiquid" : 0.2,
+      "transformMaterialId" : 360
+    }
+  ]
+}

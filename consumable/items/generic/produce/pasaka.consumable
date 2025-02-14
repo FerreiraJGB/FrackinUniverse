@@ -1,0 +1,18 @@
+{
+	"itemName": "pasaka",
+	"inventoryIcon": "pasaka.png",
+	"category": "food",
+	"rarity": "Uncommon",
+	"price": 5,
+
+	"tooltipKind": "food",
+	"description": "^yellow;^reset;^cyan;Immune: Radiation Burn & +20% Radiation Res^reset;: 2m",
+	"shortdescription": "Pasaka Bulb",
+
+	"effects": [
+		[{
+			"effect": "radioactiveblock2",
+			"duration": 120
+		}]
+	]
+}

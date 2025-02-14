@@ -1,0 +1,23 @@
+{
+	"itemName": "bluemelon",
+	"category": "food",
+	"inventoryIcon": "bluemelon.png",
+	"rarity": "Uncommon",
+	"price": 5,
+
+	"tooltipKind": "food",
+	"description": "^yellow;^reset;^cyan;Water Walking^reset;, ^cyan;Immune: Freeze & +25% Ice Res^reset;: 1m",
+	"shortdescription": "Blue Melon",
+	"effects": [
+		[
+			{
+				"effect": "waterwalk",
+				"duration": 60
+			},
+			{
+				"effect": "iceblock",
+				"duration": 60
+			}
+		]
+	]
+}

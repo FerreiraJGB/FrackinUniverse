@@ -1,0 +1,24 @@
+{
+	"itemName": "blizzberry",
+	"inventoryIcon": "blizzberryicon.png",
+	"category": "food",
+	"rarity": "Legendary",
+	"price": 5,
+
+	"tooltipKind": "food",
+	"description": "^yellow;^reset;^cyan;Immune^reset;: Extreme Cold, Liquid Nitrogen: 2m",
+	"shortdescription": "Blizzberry",
+
+	//"learnBlueprintsOnPickup": ["blizzardcannon"],
+	"effects": [
+		[{
+				"effect": "ffextremecoldimmunityicon",
+				"duration": 120
+			},
+			{
+				"effect": "liquidnitrogenimmunity",
+				"duration": 120
+			}
+		]
+	]
+}

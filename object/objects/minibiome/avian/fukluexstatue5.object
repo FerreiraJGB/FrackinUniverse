@@ -1,0 +1,24 @@
+{
+  "objectName" : "fukluexstatue5",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 400,
+  "printable" : true,
+  "description" : "A holy statue of Kluex.",
+  "shortdescription" : "Kluex Statue",
+  "health" : 5,
+  "race" : "generic",
+  "inventoryIcon" : "fukluexstatue5.png",
+  "orientations" : [
+    {
+      "dualImage" : "fukluexstatue5.png:<color>",
+      "imagePosition" : [-52, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "itemName" : "retexgreenhouse",
+  "category" : "block",
+  "rarity" : "Common",
+  "price" : 0,
+  "inventoryIcon" : "retexgreenhouse.png",
+  "description" : "A greenhouse to let the sun through.",
+  "shortdescription" : "Greenhouse Wall",
+
+  "materialId" : 6634
+}

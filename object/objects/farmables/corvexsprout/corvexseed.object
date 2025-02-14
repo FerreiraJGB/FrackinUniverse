@@ -1,0 +1,46 @@
+{
+  "objectName" : "corvexseed",
+    "colonyTags" : [ "nature" ],
+  "rarity" : "Legendary",
+  "category" : "seed",
+  "description" : "Corvex is an alien plant with strange chemical properties.",
+  "shortdescription" : "Corvex Sprout",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 40,
+
+  "inventoryIcon" : "corvexseedicon.png",
+  "largeImage" : "corvexseed.png:default.3.0",
+  //"collectablesOnPickup" : { "fu_plant" : "corvex" },
+  "orientations" : [
+    {
+      "dualImage" : "corvexseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [0, 0], [1, 0], [2, 0], [3, 0], [0, 1], [1, 1], [2, 1], [3, 1], [0, 2], [1, 2], [2, 2], [3, 2], [0, 3], [1, 3], [2, 3], [3, 3], [0, 4], [1, 4], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "stages" : [
+    {
+      "duration" : [520, 840]
+    },
+    {
+      "duration" : [520, 840]
+    },
+    {
+      "alts" : 4,
+      "duration" : [520, 830]
+    },
+    {
+      "alts" : 4,
+      "harvestPool" : "corvexHarvest",
+      "resetToStage" : 2
+    }
+  ],
+    "maxImmersion" : 0.125,
+  "beeLikeness" : { "tunguskudae" : 1}
+}

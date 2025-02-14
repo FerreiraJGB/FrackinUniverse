@@ -1,0 +1,24 @@
+{
+  "materialId" : 6514,
+  "materialName" : "goldenplank",
+  "category": "material",
+  "particleColor" : [171, 166, 57, 255],
+  "itemDrop" : "goldenplank",
+  "shortdescription" : "Golden Plank",
+  "description" : "Golden wood planks ready for building and crafting.",
+  "glitchDescription" : "Satisfied. These golden wood planks are well crafted.",
+  "floranDescription" : "Pretty wood plankss.",
+  "novakidDescription" : "Those sure are some golden lookin' wood planks.",
+  "footstepSound" : "/sfx/blocks/footstep_wood.ogg",
+  "health" : 4,
+  "damageTable" : "/tiles/flammableDamage.config",
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "goldenplank.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 2830
+  }
+}

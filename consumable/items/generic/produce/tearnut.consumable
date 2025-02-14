@@ -1,0 +1,29 @@
+{
+	"itemName": "tearnut",
+	"inventoryIcon": "tearnut.png",
+	"category": "food",
+	"rarity": "Common",
+	"price": 5,
+	"foodValue": 10,
+	"maxStack": 1000,
+
+	"tooltipKind": "food",
+	"description": "^yellow;^reset;^cyan;Heal 20^reset;: 2s \n^green;Type: Nut^reset;",
+	"shortdescription": "Tearnut",
+
+	"eventCategory": "eventCrop",
+	"builder": "/items/buildscripts/buildfood.lua",
+	"itemAgingScripts": ["/scripts/items/rotting.lua"],
+	"rottingMultiplier": 5.0,
+	"effects": [
+		[{
+			"effect": "heal_tier1",
+			"duration": 2
+		},
+		{
+			"effect": "plant_food"
+		}]
+	],
+	"blockingEffects": ["wellfed", "heal_tier1"],
+	"learnBlueprintsOnPickup": ["tearnutbutter"]
+}

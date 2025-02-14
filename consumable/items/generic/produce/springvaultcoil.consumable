@@ -1,0 +1,18 @@
+{
+	"itemName": "springvaultcoil",
+	"inventoryIcon": "springvaultcoil.png",
+	"category": "food",
+	"rarity": "Rare",
+	"price": 5,
+
+	"tooltipKind": "food",
+	"description": "^yellow;^reset;^cyan;Bouncy, Immune to Fall Damage^reset;: 2m",
+	"shortdescription": "Springvault Coil",
+
+	"effects": [
+		[{
+			"effect": "bouncy",
+			"duration": 120
+		}]
+	]
+}

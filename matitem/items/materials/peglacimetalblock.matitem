@@ -1,0 +1,15 @@
+{
+    "itemName": "peglacimetalblock",
+    "category": "block",
+    "rarity": "Common",
+    "inventoryIcon": "peglacimetalblock.png",
+    "dropCollision": [
+        -2.5,
+        -2.0,
+        2.5,
+        2.0
+    ],
+    "description": "A block made of a secret Peglaci alloy.\n^green;Extractable^reset;.",
+    "shortdescription": "Alloy Metal Block",
+    "materialId": 3508
+}

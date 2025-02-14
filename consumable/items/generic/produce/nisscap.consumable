@@ -1,0 +1,23 @@
+{
+	"itemName": "nisscap",
+	"inventoryIcon": "nisscap.png",
+	"category": "food",
+	"rarity": "Common",
+	"price": 5,
+
+	"tooltipKind": "food",
+	"description": "^yellow;^reset;^cyan;Immune^reset;: Mud, Tar: 3m",
+	"shortdescription": "Niss Cap",
+
+	"effects": [
+		[{
+				"effect": "blacktarimmunity",
+				"duration": 180
+			},
+			{
+				"effect": "fumudslowimmunity",
+				"duration": 180
+			}
+		]
+	]
+}

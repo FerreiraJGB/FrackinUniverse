@@ -1,0 +1,21 @@
+{
+  "materialId" : 6556,
+  "materialName" : "elderstone",
+  "particleColor" : [138, 155, 113, 255],
+  "itemDrop" : "elderstonematerial",
+  "description" : "This material feels...wrong.",
+  "shortdescription" : "Elder Soil",
+  "footstepSound" : "/sfx/blocks/footstep_stone3.ogg",
+  "health" : 20,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/fuclassicnopaint.config",
+  "renderParameters" : {
+    "texture" : "elderstone.png",
+    "variants" : 7,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 0
+  }
+}

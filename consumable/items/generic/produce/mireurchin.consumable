@@ -1,0 +1,23 @@
+{
+	"itemName": "mireurchin",
+	"inventoryIcon": "mireurchin.png",
+	"category": "food",
+	"rarity": "Common",
+	"price": 5,
+
+	"tooltipKind": "food",
+	"description": "^yellow;^reset;^cyan;Immune: Freeze & +25% Ice Res^reset;, ^cyan;^cyan;Immune^reset;: Shock, Electric Storm & +20% Electric Res: 2m",
+	"shortdescription": "Mire Urchin",
+	"effects": [
+		[{
+				"effect": "electricblock2",
+				"duration": 120
+			},
+			{
+				"effect": "iceblock",
+				"duration": 120
+			}
+		]
+	],
+	"blockingEffects": ["electricblock2", "iceblock"]
+}

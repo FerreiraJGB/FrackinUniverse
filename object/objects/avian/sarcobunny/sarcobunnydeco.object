@@ -1,0 +1,30 @@
+{
+	"objectName" : "sarcobunnydeco",
+	"colonyTags" : ["avian","aviantomb"],
+	"rarity" : "Common",
+	"category" : "decorative",
+	"price" : 100,
+
+	"description" : "^red;This object is being deprecated. Just place it down to get the normal version^reset;.",
+	"shortdescription" : "Bunny Sarcophagus (Deprecated)",
+	"race" : "avian",
+	"tooltipKind": "codex",
+
+	"scripts" : ["/objects/noisy/sarconinjadeprecate.lua"],
+	"targetForReplace":"sarcobunny",
+	"targetCadaverRoll":2,
+	"inventoryIcon" : "sarcobunnyicon.png",
+	"orientations" : [
+		{
+			"dualImage" : "sarcobunny.png:<color>",
+
+			"imagePosition" : [-8, 0],
+			"frames" : 1,
+			"animationCycle" : 0.5,
+
+			"spaceScan" : 0.1,
+			"anchors" : [ "bottom" ]
+
+		}
+	]
+}

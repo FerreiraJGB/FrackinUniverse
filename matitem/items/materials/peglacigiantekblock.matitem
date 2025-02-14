@@ -1,0 +1,15 @@
+{
+    "itemName": "peglacigiantekblock",
+    "category": "block",
+    "rarity": "Common",
+    "inventoryIcon": "peglacigiantekblock.png",
+    "dropCollision": [
+        -2.5,
+        -2.0,
+        2.5,
+        2.0
+    ],
+    "shortdescription": "Giantek Panel",
+    "description": "A dense panel packed with processing power.\n^green;Extractable^reset;.",
+    "materialId": 3497
+}

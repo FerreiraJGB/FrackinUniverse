@@ -1,0 +1,48 @@
+{
+  "layers" : [
+    {
+      "kind" : "tile/sulphurunderground5",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.1,
+      "repeatY" : true
+    },
+    {
+      "kind" : "tile/sulphurunderground4",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.2,
+      "repeatY" : true,
+      "noRandomOffset" : true
+    },
+    {
+      "kind" : "tile/sulphurunderground3",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.4,
+      "repeatY" : true,
+      "noRandomOffset" : true,
+      "modifiers" : "?saturation=-10"
+    },
+    {
+      "kind" : "tile/sulphurunderground2",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.7,
+      "repeatY" : true,
+      "noRandomOffset" : true,
+      "modifiers" : "?saturation=-20"
+    },
+    {
+      "kind" : "tile/sulphurunderground",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 2,
+      "repeatY" : true,
+      "noRandomOffset" : true,
+      "modifiers" : "?saturation=-30"
+    }
+  ]
+}
+
+

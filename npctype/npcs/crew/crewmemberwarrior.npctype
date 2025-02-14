@@ -1,0 +1,37 @@
+{
+  "type" : "crewmemberwarrior",
+  "baseType" : "crewmember",
+
+  "scriptConfig" : {
+    "crew" : {
+      "defaultUniform" : {
+        "head" : "copperarmorhead",
+        "chest" : "copperarmorchest",
+        "legs" : "copperarmorpants"
+      },
+
+      "role" : {
+        "type" : "soldier",
+        "name" : "Warrior",
+        "field" : "Battle",
+        "uniformColorIndex" : 5
+      }
+    }
+  },
+
+  "items" : {
+    "default" : [
+      [0, [
+          {
+            "primary" : [ "carbonblade" ],
+            "secondary" : [ "ironshield" ],
+            "sheathedprimary" : [ "k3rifle" ]
+          },
+          {
+            "primary" : [ "solarihammer" ],
+            "sheathedprimary" : [ "lasrifle" ]
+          }
+        ] ]
+    ]
+  }
+}

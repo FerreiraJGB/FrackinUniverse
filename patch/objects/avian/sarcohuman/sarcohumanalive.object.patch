@@ -1,0 +1,12 @@
+[
+	{
+		"op": "add",
+		"path": "/retainObjectParametersInItem",
+		"value": true
+	},
+	{
+		"op": "replace",
+		"path": "/scripts/0",
+		"value": "/objects/noisy/noisynew.lua"
+	}
+]

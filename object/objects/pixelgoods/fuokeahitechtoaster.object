@@ -1,0 +1,40 @@
+{
+  "objectName" : "fuokeahitechtoaster",
+  "colonyTags" : [ "science", "hitech" ],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "Turns bread into delicious toast, it's magical!",
+  "shortdescription" : "Hi-tech Toaster",
+  "subtitle" : "Fresh Toasts!",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 75,
+  "objectType" : "container",
+
+  "apexDescription" : "Hi-tech toaster.",
+  "avianDescription" : "Hi-tech toaster.",
+  "floranDescription" : "Hi-tech toaster.",
+  "glitchDescription" : "Hi-tech toaster.",
+  "humanDescription" : "Hi-tech toaster.",
+  "hylotlDescription" : "Hi-tech toaster.",
+
+  "inventoryIcon" : "fuokeahitechtoastericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "fuokeahitechtoaster.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "recipeGroup" : "okeatoaster",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 2,
+  "uiConfig" : "/interface/objectcrafting/campfire.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+}
+

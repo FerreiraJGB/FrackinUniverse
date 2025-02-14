@@ -1,0 +1,17 @@
+{
+	"itemName": "whitespineshell",
+	"inventoryIcon": "whitespineshell.png",
+	"category": "food",
+	"rarity": "Uncommon",
+	"price": 5,
+
+	"tooltipKind": "food",
+	"description": "^yellow;^reset;^cyan;Immune^reset;: Sulphuric Acid: 2m",
+	"shortdescription": "Whitespine Shell",
+	"effects": [
+		[{
+			"effect": "sulphuricimmunitywhitespine",
+			"duration": 120
+		}]
+	]
+}

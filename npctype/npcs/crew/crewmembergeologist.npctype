@@ -1,0 +1,86 @@
+{
+  "type" : "crewmembergeologist",
+  "baseType" : "crewmember",
+
+  "scriptConfig" : {
+    "crew" : {
+      "defaultUniform" : {
+        "head" : "scientisthead",
+        "chest" : "scientistchest",
+        "legs" : "scientistlegs"
+      },
+
+      "role" : {
+        "type" : "chemist",
+        "name" : "Geologist",
+        "field" : "Geology",
+        "uniformColorIndex" : 6
+      },
+
+      // This interactActions only happens when in a crew, and only when
+      // interacted with by the captain.
+      "interactAction" : "OpenMerchantInterface",
+	  "interactData" : {
+		"config" : "/interface/windowconfig/merchant.config",
+		"paneLayoutOverride" : {
+		  "windowtitle" : {
+			"title" : " Geologist",
+			"subtitle" : " Rocks and Rock-like things."
+		  }
+		},
+		"buyFactor" : 8.75,
+		"sellFactor" : 0.30,
+		"items" : [
+		  { "item" : "copperore" },
+		  { "item" : "silverore" },
+		  { "item" : "goldore" },
+		  { "item" : "ironore" },
+		  { "item" : "tungstenore" },
+		  { "item" : "titaniumore" },
+		  { "item" : "durasteelore" },
+		  { "item" : "moonstoneore" },
+		  { "item" : "zerchesiumore" },
+		  { "item" : "prisiliteore" },
+		  { "item" : "protociteore" },
+		  { "item" : "penumbriteore" },
+		  { "item" : "uraniumore" },
+		  { "item" : "neptuniumore" },
+		  { "item" : "plutoniumore" },
+		  { "item" : "thoriumore" }
+		]
+	  }
+    },
+
+    "dialog" : {
+      "crewmember" : {
+        "roleDescription" : {
+          "default" : {
+            "default" : [
+              "I've got things to sell."
+            ]
+          },
+          "floran" : {
+            "default" : [
+              "Floran sssell thingss to you."
+            ]
+          },
+          "glitch" : {
+            "default" : [
+              "Statement. I've got things to sell."
+            ]
+          }
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "default" : [
+      [0, [
+          {
+            "primary" : [ "pickaxe" ]
+          }
+        ] ]
+    ]
+  }
+}

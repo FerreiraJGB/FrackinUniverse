@@ -1,0 +1,11 @@
+{
+  "itemName" : "fuancientkey",
+  "rarity" : "essential",
+  "category" : "Unknown Artifact",
+  "price" : 100,
+  "itemTags" :[ "artifactBasic" ],
+  "inventoryIcon" : "fuancientkey.png",
+  "description" : "^red;This item is no longer needed, it's safe to sell it.^reset;\nA strange device made by the Ancients.",
+  "shortdescription" : "Ancient Device",
+  "maxStack" : 1
+}

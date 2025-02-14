@@ -1,0 +1,149 @@
+{
+  "type" : "crewmembergreg",
+  "baseType" : "fu_crewmember",
+  "npcname" : "Greg",
+
+  "scriptConfig" : {
+    "crew" : {
+      "defaultUniform" : {
+        "head" : "duncecap",
+        "chest" : "tshirtchest",
+        "legs" : "jeans1legs"
+      },
+
+      "role" : {
+        "type" : "soldier",
+        "name" : "Greg",
+        "field" : "Gregology",
+        "uniformColorIndex" : 7,
+
+        "benefits" : [
+          {
+            // Ephemeral effects gained upon leaving the ship
+            "type" : "EphemeralEffect",
+            "effect" : "defenseboostgreg",
+            "defenseAmount" : 6,
+            "duration" : 300
+          },
+          {
+            "type" : "PersistentEffect",
+            "effect" : "shipMassLarge"
+          },
+          {
+            "type": "ShipUpgradeBenefit",
+            "property": "maxFuel",
+            "value": 300
+          }
+        ]
+      }
+    },
+
+    "dialog" : {
+      "crewmember" : {
+        "offer" : {
+          "default" : {
+            "default" : [
+			  "Greg?",
+			  "Greg. Greeeeg greg greg Greg?",
+			  "Greg!?",
+			  "Greg. Greg.",
+			  "Rainbow.",
+			  "Gregggggga gregga greg greg.",
+			  "Greg!? Greg. Gregga.",
+			  "Greg. Gregogreg."
+            ]
+          }
+        },
+        "roleDescription" : {
+          "default" : {
+            "default" : [
+			  "Greg?",
+			  "Greg. Greeeeg greg greg Greg?",
+			  "Greg!?",
+			  "Greg. Greg.",
+			  "Rainbow.",
+			  "Gregggggga gregga greg greg.",
+			  "Greg!? Greg. Gregga.",
+			  "Greg. Gregogreg."
+            ]
+          }
+        },
+        "combatBenefit" : {
+          "default" : {
+            "default" : [
+			  "Greg!!!!",
+			  ".....Greg!",
+			  "Gregga greg! Greg?",
+			  "...Greg? GREGGGGG!!!!",
+			  "...............greg. Gregga greg."
+            ]
+          }
+        },
+        "respawned" : {
+          "default" : {
+            "default" : [
+			  "Greg?",
+			  "Greg. Greeeeg greg greg Greg?",
+			  "Greg!?",
+			  "Greg. Greg.",
+			  "Rainbow.",
+			  "Gregggggga gregga greg greg.",
+			  "Greg!? Greg. Gregga.",
+			  "Greg. Gregogreg."
+            ]
+          }
+        },
+        "follow" : {
+          "default" : {
+            "default" : [
+			  "Greg?",
+			  "Greg. Greeeeg greg greg Greg?",
+			  "Greg!?",
+			  "Greg. Greg.",
+			  "Rainbow.",
+			  "Gregggggga gregga greg greg.",
+			  "Greg!? Greg. Gregga.",
+			  "Greg. Gregogreg."
+            ]
+          }
+        },
+        "unfollow" : {
+          "default" : {
+            "default" : [
+			  "Greg.",
+			  ".....Greg.",
+			  "Gregga greg.",
+			  "...Greg?",
+			  "...............greg."
+            ]
+          }
+        },
+        "cantreach" : {
+          "default" : {
+            "default" : [
+			  "Greg?",
+			  "Greg. Greeeeg greg greg Greg?",
+			  "Greg!?",
+			  "Greg. Greg.",
+			  "Rainbow.",
+			  "Gregggggga gregga greg greg.",
+			  "Greg!? Greg. Gregga.",
+			  "Greg. Gregogreg."
+            ]
+          }
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "default" : [
+      [0, [
+          {
+            "primary" : [ "negablade" ],
+            "sheathedprimary" : [ "bugnet" ]
+          }
+        ] ]
+    ]
+  }
+}

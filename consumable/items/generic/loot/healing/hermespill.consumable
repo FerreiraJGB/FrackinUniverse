@@ -1,0 +1,15 @@
+{
+  "itemName" : "hermespill",
+  "rarity" : "uncommon",
+  "price" : 55,
+  "category" : "medicine",
+  "inventoryIcon" : "hermespill.png",
+  "description" : "^cyan;+^white;15% ^cyan;Run ^gray;(^white;30s^gray;)^reset;",
+  "shortdescription" : "^#77acc3;Hermes Pill^reset;",
+  "effects" : [ [ "runboost15" ] ],
+  "emote" : "",
+  "emitters" : [ "drinking" ],
+  "blockingEffects" : [
+    "runboost15"
+  ]
+}

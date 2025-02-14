@@ -1,0 +1,24 @@
+{
+	"itemName": "gazelemon",
+	"inventoryIcon": "gazelemon.png",
+	"category": "food",
+	"rarity": "Rare",
+	"price": 5,
+
+	"tooltipKind": "food",
+	"description": "^yellow;^reset;^cyan;Headlamp 2^reset;: 2m\n^yellow;^reset;^cyan;Immune^reset;: Poison: 90s",
+	"shortdescription": "Gaze Lemon",
+
+	"effects": [
+		[{
+				"effect": "headlamp2",
+				"duration": 120
+			},
+			{
+				"effect": "poisonimmunitycrystal",
+				"duration": 90
+			}
+		]
+	],
+	"blockingEffects": ["poisonimmunitycrystal", "headlamp2"]
+}

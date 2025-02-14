@@ -1,0 +1,14 @@
+{
+  "itemName" : "serumstim",
+  "rarity" : "legendary",
+  "category" : "medicine",
+  "price" : 200,
+  "inventoryIcon" : "serumstim.png",
+  "description" : "A long-lasting vitality enhancer.\n^cyan;+^white;25% ^cyan;HP ^gray;(^white;2m^gray;) ^blue;Madness Gain^reset; 1",
+  "shortdescription" : "Blood Serum Stim",
+  "effects" : [ [ "percenthealthbooststim","madnessgain05" ] ],
+  "tooltipKind" : "food",
+  "emitters" : [ "stimuse" ],
+ // "learnBlueprintsOnPickup" : [ "serumstim" ],
+  "blockingEffects" : [ "percenthealthbooststim" ]
+}

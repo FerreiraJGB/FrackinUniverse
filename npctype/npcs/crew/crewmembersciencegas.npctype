@@ -1,0 +1,43 @@
+{
+  "type" : "crewmembersciencegas",
+  "baseType" : "crewmemberscience",
+
+  // Retired, do not use. Use crewmembergas instead.
+
+  "scriptConfig" : {
+    "crew" : {
+      "defaultUniform" : {
+        "head" : "ff_gasmask",
+        "chest" : "scientistchest",
+        "legs" : "scientistlegs"
+      },
+
+      "role" : {
+        "benefits" : [
+          {
+            // Ephemeral effects gained upon leaving the ship
+            "type" : "EphemeralEffect",
+            "effect" : "gasimmunity",
+            "duration" : 300
+          },
+	        {
+            "type": "ShipUpgradeBenefit",
+            "property": "fuelEfficiency",
+            "value": 0.05
+          }
+        ]
+      }
+    }
+  },
+
+  "items" : {
+    "default" : [
+      [0, [
+          {
+            "primary" : [ "biopistol" ],
+            "sheathedprimary" : [ "npcwrench" ]
+          }
+        ] ]
+    ]
+  }
+}

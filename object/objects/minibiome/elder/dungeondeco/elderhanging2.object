@@ -1,0 +1,27 @@
+{
+  "objectName" : "elderhanging2",
+  "colonyTags" : [ "elder", "evil", "wtf" ],
+  "rarity" : "uncommon",
+  "printable" : false,
+  "description" : "What the hell is this thing?",
+  "shortdescription" : "^orange;Odd formation^reset;",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 600,
+
+  "inventoryIcon" : "cageicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "elderhanging2.png:<color>.<frame>",
+
+      "imagePosition" : [-16, -120],
+      "frames" : 8,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ],
+      "metaBoundBox" : [-10, -10, 10, 10]
+    }
+  ],
+  "statusEffects"  : [ "madnessgainelder2" ]
+}

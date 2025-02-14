@@ -1,0 +1,137 @@
+{
+  "itemName" : "lunaririfle",
+  "price" : 210,
+  "inventoryIcon" : "lunaririfle.png",
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "Crystalline blasts charged with lunari energy.
+^yellow;Lights areas^reset;
+^green;Long-lived projectiles^reset;",
+    "shortdescription" : "Lunari Rifle",
+  "category" : "assaultRifle",
+  "level" : 2,
+  "tooltipKind" : "gun2",
+  "weaponType" : "Crystalline Rifle",
+  "itemTags" : ["weapon","ranged","assaultrifle","lunari", "upgradeableWeapon"],
+  "twoHanded" : true,
+
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "lunaririfle.png",
+    "barrel" : "",
+    "muzzleFlash" : "/animations/muzzleflash/matterblastmuzzleyellow.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/weapons/beam.ogg" ] },
+    "lights" : { "muzzleFlash" : {"color" : [143, 131, 98] } }
+  },
+
+  "baseOffset" : [0.56, 0.2],
+  "muzzleOffset" : [2, 0.125],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "ice",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+    "fireTime" : 0.35,
+    "baseDps" : 8,
+    "energyUsage" : 30,
+    "inaccuracy" : 0,
+
+    "projectileCount" : 2,
+    "fireType" : "auto",
+
+    "projectileType" : "lunarishotrifle",
+    "projectileParameters" : {
+      "speed" : 40,
+      "knockback" : 2
+    },
+	  "stances" : {
+	    "idle" : {
+	      "armRotation" : 0,
+	      "weaponRotation" : 0,
+	      "twoHanded" : true,
+
+	      "allowRotate" : true,
+	      "allowFlip" : true
+	    },
+	    "fire" : {
+	      "duration" : 0,
+	      "armRotation" : 5,
+	      "weaponRotation" : 5,
+	      "twoHanded" : true,
+
+	      "allowRotate" : false,
+	      "allowFlip" : false
+	    },
+	    "cooldown" : {
+	      "duration" : 0.075,
+	      "armRotation" : 5,
+	      "weaponRotation" : 5,
+	      "twoHanded" : true,
+
+	      "allowRotate" : false,
+	      "allowFlip" : false
+	    }
+	  }
+  },
+    "particleEmitters" : {
+      "muzzleFlash" : {
+        "particles" : [
+          { "particle" : "smallfirecloud1", "offset" : [0.0, 0.0] },
+          { "particle" : "smallfirecloud2", "offset" : [0.0, 0.0] },
+          { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] }
+        ]
+      }
+    },
+
+  "critChance" : 1,
+  "critBonus" : 3,
+  //recoil
+  "hasRecoil" : 1,
+  "recoilSpeed" : 200,
+  "recoilForce" : 500,
+
+  "altAbilityType" : "lunarishrapnelbomb",
+  "altAbility" : {
+    "name" : "Starshock"
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+
+  "upgradeParameters" : {
+    "shortdescription" : "^cyan;Lunari MkII^reset; ^yellow;^reset;",
+  "description" : "Crystalline blasts charged with lunari energy
+^yellow;Lights areas^reset;
+^green;Long-lived projectiles",
+  "animationParts" : {
+    "middle" : "lunaririfle2.png"
+    },
+    "inventoryIcon" : [
+    { "image" : "lunaririfle2.png:" }
+    ],
+    "critChance" : 2,
+    "critBonus" : 3,
+    "primaryAbility" : {
+	    "fireTime" : 0.35,
+	    "baseDps" : 8,
+	    "energyUsage" : 30,
+	    "inaccuracy" : 0,
+
+	    "projectileCount" : 3,
+	    "fireType" : "auto",
+
+	    "projectileType" : "lunarishotinitiate",
+	    "projectileParameters" : {
+	      "speed" : 50,
+	      "knockback" : 4
+	    }
+    }
+  }
+
+}

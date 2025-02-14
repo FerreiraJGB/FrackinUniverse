@@ -1,0 +1,25 @@
+{
+  "materialId" : 3502,
+  "materialName" : "peglacicablenexus",
+  "particleColor" : [215, 129, 84, 255],
+  "itemDrop" : "peglacicablenexus",
+  "description" : "A densely packed stack of processors, kept chilled to optimal temperatures.",
+  "shortdescription" : "Chilled Cable Nexus",
+  "glitchDescription" : "Analysis. This is a stack of solid-state processors.",
+  "floranDescription" : "Looksss like a bunch of shiny vines.",
+
+
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 6,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "peglacicablenexus.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 0
+  }
+}

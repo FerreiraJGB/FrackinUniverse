@@ -1,0 +1,13 @@
+{
+  "itemName" : "thesauce",
+  "rarity" : "legendary",
+  "price" : 200,
+  "category" : "medicine",
+  "inventoryIcon" : "thesauce.png",
+  "description" : "Protects you from damage via some sort of...weird mojo.\n^cyan;+^white;30% ^cyan;Defense ^gray;(^white;2m^gray;) ^blue;Madness Gain^reset; 4",
+  "shortdescription" : "The Sauce",
+  "tooltipKind" : "food",
+  "effects" : [ ["madnessgain3","percentarmorboost30"] ],
+  "emitters" : [ "stimuse" ],
+  "blockingEffects" : [ "percentarmorboost30" ]
+}

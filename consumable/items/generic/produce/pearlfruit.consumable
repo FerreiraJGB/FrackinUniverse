@@ -1,0 +1,18 @@
+{
+	"itemName": "pearlfruit",
+	"inventoryIcon": "pearlfruit.png",
+	"category": "food",
+	"price": 5,
+	"rarity": "Common",
+
+	"tooltipKind": "food",
+	"description": "^yellow;^reset;^cyan;Water Walking^reset;: 1m",
+	"shortdescription": "Pearlfruit",
+
+	"effects": [
+		[{
+			"effect": "waterwalk",
+			"duration": 60
+		}]
+	]
+}

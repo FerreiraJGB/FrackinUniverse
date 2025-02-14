@@ -1,0 +1,36 @@
+{
+  "objectName" : "fuokeahitechvrchair",
+  "colonyTags" : [ "science", "hitech" ],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "Escape the bright future into the comfort of an even brighter future!",
+  "shortdescription" : "Hi-tech VR Set Chair",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 65,
+  "inventoryIcon" : "fuokeahitechvrchairicon.png",
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+
+    "orientations" : [
+    {
+      "image" : "fuokeahitechvrchair.png:<color>",
+      "sitCoverImage" : "/objects/pixelgoods/fuokeahitechvrchairoverlay.png",
+      "imagePosition" : [-16, 0],
+      "direction" : "left",
+      "flipImages" : true,
+      "sitPositions" : [[-4, 22]],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "fuokeahitechvrchair.png:<color>",
+      "sitCoverImage" : "/objects/pixelgoods/fuokeahitechvrchairoverlay.png",
+      "imagePosition" : [-16, 0],
+      "direction" : "right",
+      "sitPositions" : [[4, 22]],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "objectName" : "centrifuge2",
+  "colonyTags" : [ "science", "machines" ],
+  "printable" : false,
+  "rarity" : "legendary",
+  "description" : "The ultimate centrifuge, capable of extracting from gasses and processing radioactive isotopes. ^cyan;Requires ^orange;36W^cyan; power.^reset;",
+  "shortdescription" : "^cyan;Gas Centrifuge^reset;",
+  "subtitle" : "Extract items from resources",
+  "race" : "generic",
+  "category" : "^orange;Centrifuge^reset;",
+  "price" : 2200,
+  "objectType" : "container",
+
+  "hydrophobic" : false,
+
+  "inventoryIcon" : "centrifuge2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "centrifuge2a.png:<color>.<frame>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "centrifuge2.animation",
+  "animationParts" : {
+    "centrifuge" : "centrifuge2a.png",
+    "centrifugefullbright" : "centrifuge2afullbright.png"
+  },
+
+  "scripts" : [ "/scripts/fupower.lua", "/objects/bees/centrifuge.lua" ],
+  "scriptDelta" : 5,
+  "recipeGroup" : "centrifuge",
+  "openSounds" : [ "/sfx/objects/locker_open.ogg" ],
+  "slotCount" : 20,
+  "uiConfig" : "/interface/bees/industrialcentrifuge/industrialcentrifuge3.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+
+  "craftDelay": 0.52,
+  "itemChances": {
+    "rarest": 0.012,
+    "rare": 0.032,
+    "uncommon": 0.09,
+    "normal": 0.22,
+    "common": 0.32
+  },
+
+  "inputSlot": 4,
+
+  "inputNodes" : [ [0, 1] ],
+  "outputNodes" : [ [0, 0] ],
+
+  "centrifugeType" : "isotope",
+  "powertype" : "input",
+  "isn_requiredPower" : 36
+}

@@ -1,0 +1,96 @@
+{
+  "itemName" : "verdantcarbine",
+  "price" : 160,
+  "inventoryIcon" : "verdantcarbine.png",
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "description" : "A deadly mix of plant and machine.
+^yellow;Inflicts poison, ^cyan;Floran^reset;
+^#e43774;6-round microbursts (x6 dmg)^reset;",
+  "shortdescription" : "Verdant Carbine",
+  "category" : "assaultRifle",
+  "level" : 3,
+  "tooltipKind" : "gun2",
+  "weaponType" : "Carbine",
+  "itemTags" : ["weapon","ranged","assaultrifle","bioweapon", "upgradeableWeapon","floran"],
+  "twoHanded" : true,
+
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "verdantcarbine.png",
+    "barrel" : "",
+    "muzzleFlash" : "/items/active/weapons/ranged/bulletmuzzle.png"
+  },
+  "animationCustom" : {"sounds" : {"fire" : [ "/sfx/weapons/verdantcarbine.ogg" ]}},
+
+  "baseOffset" : [1.5, 0.35],
+  "muzzleOffset" : [1.25, 0.125],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "poison",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+    "fireTime" : 0.35,
+    "baseDps" : 7.7,
+    "energyUsage" : 25.0,
+    "inaccuracy" : 0.02,
+
+    "projectileCount" : 1,
+    "fireType" : "burst",
+    "burstCount" : 6,
+    "burstInterval" : 1.5,
+    "burstTime" : 0.05,
+
+    "projectileType" : "toxicdart",
+    "projectileParameters" : {
+      "speed" : 62,
+      "knockback" : 1.5
+    },
+  "stances" : {
+    "idle" : {
+      "armRotation" : 0,
+      "weaponRotation" : 0,
+      "twoHanded" : true,
+
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "fire" : {
+      "duration" : 0,
+      "armRotation" : 5,
+      "weaponRotation" : 5,
+      "twoHanded" : true,
+
+      "allowRotate" : false,
+      "allowFlip" : false
+    },
+    "cooldown" : {
+      "duration" : 0.075,
+      "armRotation" : 5,
+      "weaponRotation" : 5,
+      "twoHanded" : true,
+
+      "allowRotate" : false,
+      "allowFlip" : false
+    }
+  }
+  },
+
+  "critChance" : 4,
+  "critBonus" : 3,
+  "isAmmoBased" : 1,
+  "magazineSize" : 12,
+  "reloadTime" : 0.8,
+  //recoil
+  "hasRecoil" : 1,
+  "recoilSpeed" : 200,
+  "recoilForce" : 300,
+
+  "altAbilityType" : "spray",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

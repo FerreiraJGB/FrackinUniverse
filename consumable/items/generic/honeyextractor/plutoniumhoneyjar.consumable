@@ -1,0 +1,27 @@
+{
+  "itemName" : "plutoniumhoneyjar",
+  "rarity" : "Common",
+  "category" : "food",
+  "price" : 45,
+  "inventoryIcon" : "plutoniumhoneyjar.png",
+  "description" : "Plutonium-enriched honey. Probably dangerous!\n^green;Heal ^white;57.5 ^gray;(^white;30s^gray;)\n^blue;+^white;8 ^blue;Fuel^reset;",
+  "shortdescription" : "Healing Honey Jar",
+  "fuelAmount" : 8,
+
+  "tooltipKind": "food",
+  "effects" : [ [
+    {
+      "effect" : "honeyheal4",
+      "duration" :30
+    },
+    {
+      "effect" : "fedhoney",
+      "duration" : 180
+    }
+  ] ],
+  "blockingEffects" : [
+    "fedhoney"
+  ]//,
+  //"learnBlueprintsOnPickup" : [ "plutoniumcookie" ]
+
+ }

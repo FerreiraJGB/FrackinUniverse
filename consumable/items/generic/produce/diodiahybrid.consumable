@@ -1,0 +1,18 @@
+{
+	"itemName": "diodiahybrid",
+	"inventoryIcon": "diodiahybrid.png",
+	"category": "food",
+	"rarity": "Common",
+	"price": 5,
+
+	"tooltipKind": "food",
+	"description": "^yellow;^reset;^cyan;+20% Poison Res^reset;: 2m",
+	"shortdescription": "Diodia Hybrid Fruit",
+
+	"effects": [
+		[{
+			"effect": "poisonblock2",
+			"duration": 120
+		}]
+	]
+}

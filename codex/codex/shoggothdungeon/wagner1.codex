@@ -1,0 +1,17 @@
+{
+  "id" : "wagner1",
+  "title" : "Unprecedented Discovery",
+  "description" : "Hastily written notes.",
+  "icon" : "bloodypapers.png",
+  "contentPages" : [
+
+"The driller fell through the damned ice! The entire thing is lost, utterly unsalvagable without some means to block the effects of the liquid nitrogen pool. And that still doesn't help lug the thing out. We're going to need something to winch it to. I don't even want to see cost estimates for a replacement, if it comes to that. We're already over budget by 27%. Corporate isn't going to like this.",
+
+"There's something else though...we found it when trying to determine the best method to get the driller out. It's some sort of corpse. I can't even discern -what- it is. I've honestly never seen anything quite like it. The number of appendages is...unusual. Terrifying to behold, in fact. I'm going to bring it to MacReady to autopsy. Maybe we'll be able to learn more about it and determine potential avenues for revenue. I suppose the upside here is that Corporate stands to make a profit, after all."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "legendary",
+    "price" : 25
+  }
+}

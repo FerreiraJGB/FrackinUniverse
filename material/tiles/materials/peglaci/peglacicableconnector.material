@@ -1,0 +1,25 @@
+{
+  "materialId" : 3501,
+  "materialName" : "peglacicableconnector",
+  "particleColor" : [200, 200, 200, 255],
+  "itemDrop" : "peglacicableconnector",
+  "description" : "A block that connects to many cables.",
+  "shortdescription" : "Chilled Cable Connector",
+  "glitchDescription" : "Analysis. A block that connects to many cables. Tightly packed.",
+  "floranDescription" : "They look like vinesss.",
+
+
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 6,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "peglacicableconnector.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 0
+  }
+}

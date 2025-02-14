@@ -1,0 +1,13 @@
+{
+  "itemName" : "portaljuice",
+  "rarity" : "rare",
+  "price" : 200,
+  "category" : "medicine",
+  "inventoryIcon" : "portaljuice.png",
+  "description" : "^cyan;If near death, warps you elsewhere and gives ^gray;(^white;10m^gray;) ^blue;Madness Gain^reset; 1",
+  "shortdescription" : "Portal Juice",
+  "effects" : [ [ "madnessgain05", "portaljuice" ] ],
+  "tooltipKind" : "food",
+  "emitters" : [ "drinking" ],
+  "blockingEffects" : [ "portaljuice" ]
+}

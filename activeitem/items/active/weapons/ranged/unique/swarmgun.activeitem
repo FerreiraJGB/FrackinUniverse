@@ -1,0 +1,112 @@
+{
+  "itemName" : "swarmgun",
+  "price" : 160,
+  "inventoryIcon" : "swarmgun.png",
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "description" : "Horrify the enemy with clouds of stinging, angry bugs.
+^cyan;Causes stings, weakening and poison^reset;",
+  "shortdescription" : "Swarm Gun",
+  "category" : "bioweapon",
+  "level" : 4,
+  "tooltipKind" : "gun2",
+  "weaponType" : "Bio-Weapon",
+  "itemTags" : ["weapon","ranged","assaultrifle", "bioweapon", "upgradeableWeapon" ],
+  "twoHanded" : true,
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "swarmgun.png",
+    "barrel" : "",
+    "muzzleFlash" : "/items/active/weapons/ranged/bulletmuzzle.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/projectiles/hivebomb_impact.ogg" ]
+    }
+  },
+
+  "baseOffset" : [1.2, 0.35],
+  "muzzleOffset" : [1.25, 0.125],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "bioweapon",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+    "fireTime" : 2.5,
+    "baseDps" : 2,
+    "energyUsage" : 35.0,
+    "inaccuracy" : 0,
+
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "hiveswarm2",
+    "projectileParameters" : {
+      "speed" : 32,
+      "knockback" : 1,
+      "damageKind" : "bioweapon",
+	  "actionOnReap" : [
+	    {
+	      "action" : "config",
+	      "file" : "/projectiles/explosions/beeboom/beeboom.config"
+	    },
+	    {
+	      "action" : "sound",
+	      "options" : [ "/sfx/projectiles/hivebomb_impact.ogg" ]
+	    }
+	  ],
+	  "periodicActions" : [
+	    {
+	      "time" : 0.05,
+	      "loop" : true,
+	      "action" : "projectile",
+	      "type" : "hiveswarm3",
+	      "config" : {
+	        "statusEffects" : [ "weakpoison" ]
+	      },
+	      "inheritDamageFactor" : 0.01,
+	      "fuzzAngle" : 360
+	   }
+	  ]
+    },
+
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : 0,
+      "weaponRotation" : 0,
+      "twoHanded" : true,
+
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "fire" : {
+      "duration" : 0,
+      "armRotation" : 2,
+      "weaponRotation" : 2,
+      "twoHanded" : true,
+
+      "allowRotate" : false,
+      "allowFlip" : false
+    },
+    "cooldown" : {
+      "duration" : 0.075,
+      "armRotation" : 2,
+      "weaponRotation" : 2,
+      "twoHanded" : true,
+
+      "allowRotate" : false,
+      "allowFlip" : false
+    }
+  }
+  },
+  "critChance" : 4,
+  "critBonus" : 3,
+  "altAbilityType" : "lance",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

@@ -1,0 +1,38 @@
+{
+  "objectName" : "mechruin",
+  "colonyTags" : [ "wasteland", "combat" ],
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 2000,
+
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "printable" : false,
+
+  "description" : "This was once some sort of mobile weapons platform.",
+  "shortdescription" : "Ruined Mech",
+  "inventoryIcon" : "mechruin.png",
+  "health" : 5,
+  "rooting" : true,
+  "orientations" : [
+    {
+      "dualImage" : "mechruin.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  "biomePlaced" : true,
+
+
+  "openSounds" : [ "/sfx/objects/chest_small_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.ogg" ],
+  "slotCount" : 32,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

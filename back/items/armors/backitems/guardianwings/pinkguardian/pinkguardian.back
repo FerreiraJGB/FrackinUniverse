@@ -1,0 +1,48 @@
+{
+  "itemName" : "pinkguardianback",
+  "price" : 1500,
+  "inventoryIcon" : "guardianicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "rarity" : "rare",
+  "description" : "These ancient crystals hum with energy. They release a gentle, healing light.",
+  "shortdescription" : "Pink Guardian Wings",
+  "tooltipKind" : "baseaugment",
+  "category" : "enviroProtectionPack",
+  "acceptsAugmentType" : "back",
+  "radioMessagesOnPickup" : [ "pickupepp" ],
+
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+  "maxStack" : 1,
+
+  "statusEffects" : [
+    "pinkguardian", "icarus1"
+  ],
+
+  "colorOptions" : [
+    // DEFAULT
+	{ "ffca8a" : "FFFFFF", "e0975c" : "FFD2FF", "a85636" : "FFB5FF", "6f2919" : "FF81FF" },
+    // BLACK
+	{ "ffca8a" : "616161", "e0975c" : "4A4A4A",	"a85636" : "303030", "6f2919" : "191919" },
+    // GREY
+	{ "ffca8a" : "B5B5B5", "e0975c" : "9E9E9E", "a85636" : "7C7C7C", "6f2919" : "616161" },
+    // WHITE
+	{ "ffca8a" : "FFFFFF", "e0975c" : "E4E4E4", "a85636" : "CDCDCD", "6f2919" : "B5B5B5" },
+    // RED
+	{ "ffca8a" : "FFFFFF", "e0975c" : "FF9191", "a85636" : "FF6A6A", "6f2919" : "FF0000" },
+    // ORANGE
+	{ "ffca8a" : "FFFFFF", "e0975c" : "FFDC9E", "a85636" : "FFCF7C", "6f2919" : "FFAE20" },
+    // YELLOW
+	{ "ffca8a" : "FFFFFF", "e0975c" : "FEFFD2", "a85636" : "FDFFB5", "6f2919" : "FDFF81" },
+    // GREEN
+	{ "ffca8a" : "FFFFFF", "e0975c" : "D8FFD2", "a85636" : "BEFFB5", "6f2919" : "92FF81" },
+    // BLUE
+	{ "ffca8a" : "FFFFFF", "e0975c" : "D2E7FF", "a85636" : "B5D7FF", "6f2919" : "81BCFF" },
+    // PURPLE
+	{ "ffca8a" : "FFFFFF", "e0975c" : "C693FF", "a85636" : "AC62FF", "6f2919" : "7800FF" },
+    // PINK
+	{ "ffca8a" : "FFFFFF", "e0975c" : "FFD2FF", "a85636" : "FFB5FF", "6f2919" : "FF81FF" },
+    // BROWN
+	{ "ffca8a" : "C59C72", "e0975c" : "A1784E", "a85636" : "775029", "6f2919" : "503112" }
+  ]
+}

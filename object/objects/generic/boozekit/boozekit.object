@@ -1,0 +1,30 @@
+{
+  "objectName" : "boozekit",
+  "colonyTags" : [ "crafting", "booze" ],
+  "rarity" : "rare",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/boozekit.config",
+    "filter" : [ "boozekit" ]
+  },
+  "printable" : false,
+  "description" : "Your very own homebrewing kit.",
+  "shortdescription" : "^orange;Booze Kit^reset;",
+  "race" : "general",
+  "category" : "crafting",
+  "price" : 1,
+  "inventoryIcon" : "boozekiticon.png",
+
+  "orientations" : [
+       {
+      "dualImage" : "boozekit.png:default",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/aquarium1.ogg"
+
+}

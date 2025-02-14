@@ -1,0 +1,24 @@
+{
+  "objectName" : "fukluexstatue4",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 400,
+  "printable" : true,
+  "description" : "A battered and broken statue of Kluex.",
+  "shortdescription" : "Kluex Statue",
+  "health" : 5,
+  "race" : "generic",
+  "inventoryIcon" : "fukluexstatue4.png",
+  "orientations" : [
+    {
+      "dualImage" : "fukluexstatue4.png:<color>",
+      "imagePosition" : [-52, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

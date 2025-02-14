@@ -1,0 +1,27 @@
+{
+	"itemName": "awfuloffalsmoothie",
+	"rarity": "uncommon",
+	"price": 60,
+	"category": "preparedFood",
+	"inventoryIcon": "awfuloffalsmoothie.png",
+	"description": "Blended rotten food. The greatest invention of Dupont Dewpawnt. ^red;-^reset;5^red;% Health^reset; 15^red;s Poison^reset; ^blue;Madness Gain^reset; 3 ^red;Type: Raw Meat Dairy Dessert^reset;",
+	"shortdescription": "Awful Offal Smoothie",
+	"effects": [
+        ["madnessgain2", "meatr_dairy_dessert",
+		{
+				"effect": "negativehealth5",
+                "duration": 90
+            },
+            {"effect": "weakpoison",
+            "duration": 15
+        }
+        ]
+    ],
+	"foodValue": 30,
+	"tooltipKind": "food",
+	"builder": "/items/buildscripts/buildfood.lua",
+	"maxStack": 1,
+	"itemAgingScripts": ["/scripts/items/rotting.lua"],
+	"rottingMultiplier": 1,
+	"blockingEffects": ["wellfed"]
+}

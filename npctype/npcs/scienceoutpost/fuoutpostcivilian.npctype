@@ -1,0 +1,1087 @@
+{
+  "type" : "fuoutpostcivilian",
+  "baseType" : "outpostcivilian",
+
+
+  "damageTeam" : 1,
+  "scriptConfig" : {
+    "offeredQuests" : [ "create_ignuschili", "create_elder" ],
+    "turnInQuests" : [ "create_ignuschili", "create_elder" ],
+
+    "reactions" : {
+      "spontaneous" : [
+      ]
+    },
+
+    "personalities" : [
+      [1.0, {
+        "personality" : "cheerful",
+        "additiveReactions" : [ "spontaneous" ],
+        "reactions" : {
+          "emo" : [
+            [1.0, "comfort"]
+          ],
+          "flee" : [
+            [1.0, "wave"]
+          ],
+          "gohome" : [
+            [1.0, "wave"]
+          ],
+          "chase" : [
+            [1.0, "smile"]
+          ],
+          "cry" : [
+            [1.0, "comfort"],
+            [1.0, "oh"],
+            [0.3, "follow"]
+          ],
+          "panic" : [
+            [1.0, "comfort"],
+            [1.0, "oh"],
+            [0.3, "follow"]
+          ],
+          "wink" : [
+            [1.0, "love"],
+            [1.0, "wink"],
+            [1.0, "follow"]
+          ],
+          "nosebleed" : [
+            [1.0, "comfort"],
+            [0.3, "follow"]
+          ],
+          "vomit" : [
+            [1.0, "comfort"],
+            [0.3, "follow"]
+          ],
+          "bored" : [
+            [1.0, "laugh"],
+            [1.0, "smile"]
+          ],
+          "spontaneous" : [
+            [1.0, "smile"]
+          ],
+          "hasquest" : [
+            [1.0, "smile"]
+          ],
+          "default" : [
+            [1.0, "smile"],
+            [1.0, "jumpforjoy"],
+            [1.0, "laugh"],
+            [1.0, "oh"],
+            [1.0, "wink"],
+            [1.0, "love"],
+            [1.0, "quit"],
+            [1.0, "follow"]
+          ]
+        }
+      }],
+      [1.0, {
+        "personality" : "jerk",
+        "reactions" : {
+          "cheerful" : [
+            [1.0, "annoyed"]
+          ],
+          "emo" : [
+            [1.0, "schadenfreude"]
+          ],
+          "comfort" : [
+            [1.0, "annoyed"],
+            [0.5, "flee"],
+            [1.0, "chase"]
+          ],
+          "cry" : [
+            [1.0, "annoyed"],
+            [3.0, "schadenfreude"],
+            [1.0, "chase"]
+          ],
+          "vomit" : [
+            [1.0, "annoyed"],
+            [2.0, "schadenfreude"],
+            [1.0, "vomit"],
+            [1.0, "gohome"],
+            [1.0, "chase"]
+          ],
+          "bored" : [
+            [1.0, "annoyed"],
+            [1.0, "schadenfreude"],
+            [1.0, "chase"]
+          ],
+          "wink" : [
+            [1.0, "annoyed"],
+            [1.0, "schadenfreude"],
+            [0.3, "chase"]
+          ],
+          "love" : [
+            [1.0, "annoyed"],
+            [1.0, "schadenfreude"],
+            [0.3, "chase"]
+          ],
+          "flee" : [
+            [1.0, "chase"]
+          ],
+          "quit" : [
+            [1.0, "chase"]
+          ],
+          "gohome" : [
+            [1.0, "chase"]
+          ],
+          "wallbutton" : [
+            [1.0, "punch"]
+          ],
+          "music" : [
+            [1.0, "annoyed"]
+          ],
+          "videogameComplete" : [
+            [1.0, "punch"]
+          ]
+        }
+      }],
+      [1.0, {
+        "personality" : "flirty",
+        "additiveReactions" : [ "default" ],
+        "reactions" : {
+          "nearnpc" : [
+            [1.0, "wave"],
+            [1.0, "wink"]
+          ],
+          "nearplayer" : [
+            [1.0, "flirtwithplayer"]
+          ],
+          "neutral" : [
+            [1.0, "annoyed"],
+            [1.0, "quit"]
+          ],
+          "bored" : [
+            [1.0, "annoyed"],
+            [1.0, "quit"]
+          ],
+          "vomit" : [
+            [1.0, "annoyed"],
+            [1.0, "quit"]
+          ],
+          "wink" : [
+            [1.0, "wink"],
+            [1.0, "love"],
+            [0.3, "follow"]
+          ],
+          "nosebleed" : [
+            [1.0, "wink"],
+            [1.0, "love"],
+            [0.3, "follow"]
+          ],
+          "love" : [
+            [1.0, "love"],
+            [0.3, "follow"]
+          ],
+          "comfort" : [
+            [1.0, "love"],
+            [0.3, "follow"]
+          ],
+          "follow" : [
+            [1.0, "wink"]
+          ],
+          "gohome" : [
+            [1.0, "follow"]
+          ],
+          "chase" : [
+            [1.0, "wink"]
+          ],
+          "default" : [
+            [5.0, "wink"]
+          ]
+        }
+      }],
+      [1.0, {
+        "personality" : "anxious",
+        "additiveReactions" : [
+          "default", "love", "wink", "cry"
+        ],
+        "maxPlayTargetNpcs" : 1,
+        "reactions" : {
+          "nearnpc" : [
+            [1.0, "neutral"],
+            [1.0, "flee"],
+            [1.0, "panic"]
+          ],
+          "nearplayer" : [
+            [1.0, "neutral"],
+            [1.0, "flee"],
+            [1.0, "panic"]
+          ],
+          "cry" : [
+            [3.0, "neutral"],
+            [3.0, "blankstare"],
+            [1.0, "panic"]
+          ],
+          "love" : [
+            [1.0, "vomit"],
+            [1.0, "panic"]
+          ],
+          "wink" : [
+            [1.0, "vomit"],
+            [1.0, "panic"]
+          ],
+          "videogameComplete" : [
+            [1.0, "jumpforjoy"]
+          ],
+          "default" : [
+            [3.0, "neutral"],
+            [3.0, "oh"],
+            [1.0, "vomit"],
+            [9.0, "gohome"],
+            [3.0, "neutral"],
+            [9.0, "blankstare"],
+            [1.0, "panic"]
+          ]
+        }
+      }],
+      [1.0, {
+        "personality" : "easilyspooked",
+        "behaviorConfig" : {
+          "sleepUntil" : [0.9,0.1]
+        },
+        "additiveReactions" : [
+          "spontaneous", "videogameComplete", "gongComplete", "drumComplete",
+          "music", "musicFinished", "cry", "vomit", "default"
+        ],
+        "reactions" : {
+          "spontaneous" : [
+            [0.5, "panic"]
+          ],
+          "hasquest" : [
+            [1.0, "panic"]
+          ],
+          "nearplayer" : [
+            [0.2, "flee"],
+            [1.0, "quit"]
+          ],
+          "videogameComplete" : [
+            [0.5, "panic"]
+          ],
+          "gongComplete" : [
+            [0.4, "panic"]
+          ],
+          "drumComplete" : [
+            [0.4, "panic"]
+          ],
+          "music" : [
+            [0.5, "panic"]
+          ],
+          "musicFinished" : [
+            [0.2, "flee"],
+            [0.2, "panic"]
+          ],
+          "cry" : [
+            [0.5, "panic"]
+          ],
+          "panic" : [
+            [1.0, "panic"],
+            [0.2, "flee"]
+          ],
+          "schadenfreude" : [
+            [1.5, "panic"],
+            [1.5, "cry"],
+            [1.0, "flee"],
+            [1.0, "gohome"]
+          ],
+          "vomit" : [
+            [0.5, "panic"],
+            [0.5, "flee"]
+          ],
+          "nosebleed" : [
+            [1.0, "panic"],
+            [0.3, "flee"]
+          ],
+          "follow" : [
+            [1.0, "flee"]
+          ],
+          "creepyfollow" : [
+            [1.0, "flee"]
+          ],
+          "default" : [
+            [5.0, "panic"]
+          ]
+        }
+      }],
+      [1.0, {
+        "personality" : "clumsy",
+        "additiveReactions" : [
+          "videogameComplete", "console", "wallbutton", "wallswitch",
+          "vendingmachineCollect", "brokenConsole", "handdryer",
+          "furnaceComplete", "campfire", "watercoolerComplete",
+          "sinkComplete", "teleporter", "turret"
+        ],
+        "reactions" : {
+          "videogameComplete" : [
+            [0.5, "explode"]
+          ],
+          "console" : [
+            [0.5, "touchandexplode"]
+          ],
+          "wallbutton" : [
+            [0.5, "touchandexplode"]
+          ],
+          "wallswitch" : [
+            [0.5, "touchandexplode"]
+          ],
+          "vendingmachineCollect" : [
+            [0.5, "touchandexplode"]
+          ],
+          "brokenConsole" : [
+            [0.5, "touchandexplode"]
+          ],
+          "handdryer" : [
+            [0.5, "touchandexplode"]
+          ],
+          "furnaceComplete" : [
+            [0.5, "burn"]
+          ],
+          "campfire" : [
+            [0.5, "burn"]
+          ],
+          "watercoolerComplete" : [
+            [1.0, "wet"]
+          ],
+          "sinkComplete" : [
+            [1.0, "wet"]
+          ],
+          "teleporter" : [
+            [0.5, "touchandexplode"]
+          ],
+          "teleporterComplete" : [
+            [1.0, "vomit"]
+          ],
+          "turret" : [
+            [0.5, "touchandexplode"]
+          ],
+          "gongComplete" : [
+            [1.0, "hurthop"]
+          ],
+          "drumComplete" : [
+            [1.0, "hurthop"]
+          ]
+        }
+      }],
+      [1.0, {
+        "personality" : "excited",
+        "additiveReactions" : [
+          "spontaneous", "wink", "love", "comfort", "default"
+        ],
+        "reactions" : {
+          "spontaneous" : [
+            [0.5, "jumpforjoy"],
+            [0.5, "smile"]
+          ],
+          "hasquest" : [
+            [1.0, "jumpforjoy"]
+          ],
+          "nearplayer" : [
+            [1.0, "jumpforjoy"]
+          ],
+          "cheerful" : [
+            [1.0, "jumpforjoy"]
+          ],
+          "excited" : [
+            [1.0, "jumpforjoy"]
+          ],
+          "wink" : [
+            [3.0, "jumpforjoy"]
+          ],
+          "love" : [
+            [3.0, "jumpforjoy"]
+          ],
+          "jumpforjoy" : [
+            [1.0, "smile"],
+            [1.0, "jumpforjoy"],
+            [0.3, "follow"]
+          ],
+          "comfort" : [
+            [3.0, "jumpforjoy"]
+          ],
+          "musicFinished" : [
+            [1.0, "jumpforjoy"]
+          ],
+          "videogameComplete" : [
+            [1.0, "jumpforjoy"]
+          ],
+          "gongComplete" : [
+            [1.0, "jumpforjoy"]
+          ],
+          "drumComplete" : [
+            [1.0, "jumpforjoy"]
+          ],
+          "default" : [
+            [5.0, "jumpforjoy"]
+          ]
+        }
+      }],
+      [1.0, {
+        "personality" : "intrusive",
+        "additiveReactions" : [ "default", "wink", "love", "comfort" ],
+        "reactions" : {
+          "nearplayer" : [
+            [1.0, "creepyfollow"]
+          ],
+          "intrusive" : [
+            [1.0, "smile"]
+          ],
+          "quit" : [
+            [1.0, "creepyfollow"]
+          ],
+          "flee" : [
+            [1.0, "creepyfollow"]
+          ],
+          "gohome" : [
+            [1.0, "creepyfollow"]
+          ],
+          "follow" : [
+            [1.0, "smile"]
+          ],
+          "creepyfollow" : [
+            [1.0, "smile"]
+          ],
+          "wink" : [
+            [1.0, "creepyfollow"]
+          ],
+          "love" : [
+            [2.0, "creepyfollow"]
+          ],
+          "default" : [
+            [5.0, "creepyfollow"]
+          ]
+        }
+      }],
+      [1.0, {
+        "personality" : "dumb",
+        "additiveReactions" : [
+          "spontaneous"
+        ],
+        "reactions" : {
+          "spontaneous" : [
+            [0.2, "hop"],
+            [0.2, "smile"]
+          ],
+          "hasquest" : [
+            [1.0, "hop"]
+          ],
+          "bored" : [
+            [1.0, "smile"]
+          ],
+          "videogame" : [
+            [1.0, "punch"]
+          ],
+          "videogameComplete" : [
+            [1.0, "smile"],
+            [1.0, "punch"]
+          ],
+          "furnace" : [
+            [1.0, "warmhands"],
+            [1.0, "pokefire"]
+          ],
+          "wallbutton" : [
+            [1.0, "punch"]
+          ],
+          "wallswitch" : [
+            [1.0, "punch"]
+          ],
+          "console" : [
+            [1.0, "punch"]
+          ],
+          "vendingmachineActivate" : [
+            [1.0, "punch"]
+          ],
+          "vendingmachineCollect" : [
+            [1.0, "smile"]
+          ],
+          "vendingmachineConsume" : [
+          ],
+          "vendingmachineComplete" : [
+          ],
+          "watercoolerCollect" : [
+            [1.0, "punch"]
+          ],
+          "watercoolerConsume" : [
+            [1.0, "smile"]
+          ],
+          "watercoolerComplete" : [
+          ],
+          "teleporter" : [
+            [1.0, "pretendbeam"]
+          ],
+          "teleporterComplete" : [
+            [1.0, "smile"]
+          ],
+          "proximitysensor" : [
+            [1.0, "hop"]
+          ],
+          "default" : [
+            [3.0, "oooh"],
+            [2.0, "oh"],
+            [1.0, "nosebleed"],
+            [2.0, "smile"],
+            [2.0, "jumpforjoy"],
+            [1.0, "hop"],
+            [1.0, "neutral"],
+            [1.0, "wink"],
+            [1.0, "love"],
+            [1.0, "vomit"],
+            [0.3, "cry"],
+            [0.3, "annoyed"],
+            [0.3, "laugh"],
+
+            [1.0, "quit"],
+            [2.0, "flee"],
+            [1.0, "gohome"],
+            [1.0, "follow"],
+            [2.0, "chase"]
+          ]
+        }
+      }],
+      [1.0, {
+        "personality" : "emo",
+        "additiveReactions" : [
+          "spontaneous"
+        ],
+        "reactions" : {
+          "spontaneous" : [
+            [1.0, "cry"]
+          ],
+          "hasquest" : [
+            [1.0, "cry"]
+          ],
+          "sleep" : [
+            [1.0, "cry"]
+          ],
+          "default" : [
+            [2.0, "cry"],
+            [2.0, "annoyed"],
+            [1.0, "neutral"],
+            [1.0, "wink"],
+            [1.0, "love"],
+            [0.5, "nosebleed"],
+            [0.2, "vomit"],
+
+            [1.0, "quit"],
+            [2.0, "flee"],
+            [1.0, "gohome"]
+          ],
+          "cry" : [
+            [3.0, "cry"],
+            [1.0, "gohome"]
+          ],
+          "wink" : [
+            [1.0, "neutral"]
+          ],
+          "love" : [
+            [2.0, "neutral"]
+          ],
+          "nosebleed" : [
+            [1.0, "oooh"]
+          ],
+          "vomit" : [
+            [1.0, "cry"],
+            [1.0, "gohome"],
+            [1.0, "flee"]
+          ],
+          "gohome" : [
+            [3.0, "quit"],
+            [3.0, "quit"]
+          ],
+          "flee" : [
+            [3.0, "quit"],
+            [1.0, "cry"]
+          ],
+          "chase" : [
+            [1.0, "flee"]
+          ],
+          "bored" : [
+            [1.0, "cry"],
+            [1.0, "gohome"]
+          ]
+        }
+      }],
+      [1.0, {
+        "personality" : "fast",
+        "behaviorConfig" : {
+          "alwaysRun" : true,
+          "wanderTime" : 2
+        },
+        "additiveReactions" : [
+        ],
+        "reactions" : {
+          "spontaneous" : [
+            [5.0, "sleep", { "timeRange" : [0.7, 0.9] }],
+            [1.0, "wander"]
+          ],
+          "hasquest" : [
+            [1.0, "hop"]
+          ],
+          "nearnpc" : [
+            [1.0, "chase"]
+          ],
+          "nearplayer" : [
+            [1.0, "chase"]
+          ],
+          "flee" : [
+            [1.0, "chase"]
+          ],
+          "default" : [
+            [2.0, "hop"],
+            [2.0, "jumpforjoy"],
+            [1.0, "smile"],
+            [1.0, "cry"],
+            [1.0, "bored"],
+            [1.0, "neutral"],
+            [1.0, "laugh"],
+            [1.0, "annoyed"],
+            [1.0, "oh"],
+            [1.0, "oooh"],
+            [1.0, "wink"],
+            [1.0, "love"],
+            [0.3, "nosebleed"],
+            [0.3, "vomit"],
+
+            [3.0, "flee"],
+            [3.0, "chase"],
+            [1.0, "quit"],
+            [1.0, "gohome"]
+          ]
+        }
+      }],
+      [1.0, {
+        "personality" : "nocturnal",
+        "behaviorConfig" : {
+          "sleepUntil" : [0.5,0.0]
+        },
+        "reactions" : {
+          "spontaneous" : [
+            [5.0, "sleep", { "timeRange" : [0.0, 0.4] }],
+            [1.0, "sit", { "timeRange" : [0.5,0.0]}],
+            [3.0, "watchsleeping", { "timeRange" : [0.7, 0.0] }],
+            [1.0, "wander"]
+          ],
+          "hasquest" : [
+            [1.0, "sleep"]
+          ],
+          "nearplayer" : [
+            [1.0, "gohome", { "timeRange" : [0.5,0.0]}]
+          ],
+          "default" : [
+            [3.0, "bored"],
+            [3.0, "neutral"],
+            [1.0, "oh"],
+            [1.0, "oooh"],
+            [1.0, "wink"],
+            [0.3, "nosebleed"],
+
+            [1.0, "quit"],
+            [4.0, "follow"]
+          ],
+          "cry" : [
+            [1.0, "neutral"]
+          ],
+          "wink" : [
+            [1.0, "smile"],
+            [1.0, "nosebleed"],
+            [1.0, "neutral"]
+          ],
+          "love" : [
+            [1.0, "smile"],
+            [2.0, "wink"]
+          ],
+          "nosebleed" : [
+            [1.0, "wink"],
+            [1.0, "love"]
+          ],
+          "vomit" : [
+            [1.0, "annoyed"],
+            [1.0, "gohome"]
+          ],
+          "flee" : [
+            [3.0, "quit"],
+            [1.0, "neutral"],
+            [1.0, "smile"],
+            [1.0, "chase"]
+          ],
+          "bored" : [
+            [1.0, "annoyed"],
+            [1.0, "neutral"],
+            [1.0, "gohome"]
+          ]
+        }
+      }],
+      [1.0, {
+        "personality" : "socialite",
+        "behaviorConfig" : {
+          "chatCooldown" : 10,
+          "nearPlayerCooldown" : 20
+        },
+        "reactions" : {
+          "nearplayer" : [
+            [2.0, "wave"],
+            [2.0, "follow"],
+            [2.0, "jumpforjoy"],
+            [0.5, "wiggledance"],
+            [0.5, "posedance"],
+            [0.5, "armswingdance"]
+          ],
+          "default" : [
+            [1.0, "smile"],
+            [1.0, "hop"],
+            [1.0, "jumpforjoy"],
+            [1.0, "neutral"],
+            [1.0, "laugh"],
+            [1.0, "oh"],
+            [1.0, "oooh"],
+            [1.0, "wink"],
+            [1.0, "love"],
+            [0.3, "nosebleed"],
+            [0.3, "vomit"],
+            [0.3, "cry"],
+            [0.3, "bored"],
+            [0.3, "annoyed"],
+
+            [0.5, "quit"],
+            [0.5, "flee"],
+            [0.5, "gohome"],
+            [0.5, "follow"],
+            [0.5, "chase"]
+          ],
+          "gohome" : [
+            [1.0, "follow"]
+          ],
+          "flee" : [
+            [3.0, "cry"],
+            [1.0, "chase"]
+          ],
+          "chase" : [
+            [1.0, "smile"],
+            [1.0, "gohome"]
+          ],
+          "bored" : [
+            [1.0, "cry"],
+            [1.0, "annoyed"],
+            [1.0, "gohome"]
+          ]
+        }
+      }],
+      [1.0, {
+        "personality" : "ambitious",
+        "behaviorConfig" : {
+          "chatCooldown" : 10,
+          "playCooldown" : 120
+        },
+        "reactions" : {
+          "default" : [
+            [1.0, "smile"],
+            [1.0, "cry"],
+            [1.0, "hop"],
+            [1.0, "jumpforjoy"],
+            [1.0, "laugh"],
+            [1.0, "oh"],
+            [1.0, "oooh"],
+            [1.0, "wink"],
+            [1.0, "love"],
+
+            [4.0, "sell"]
+          ],
+          "gohome" : [
+            [3.0, "cry"],
+            [1.0, "follow"]
+          ],
+          "follow" : [
+            [1.0, "gohome"]
+          ],
+          "chase" : [
+            [1.0, "flee"]
+          ],
+          "flee" : [
+            [1.0, "chase"]
+          ]
+        }
+      }]
+    ],
+
+    "wander" : {
+      "timeRange" : [2.0, 10.0],
+      "chatDistance" : 4,
+      "indoorTimeOfDayRanges" : [ [0.0, 0.2], [0.5, 1.0] ],
+      "indoorSearchRadius" : 10,
+      "indoorLookaheadDistance" : 4,
+      "moveToTargetTime" : 7.0,
+      "changeDirectionCooldown" : 2,
+      "dropDownChance" : 0,
+      "cooldown" : 10
+    },
+    "returnToPost" : {
+      "moveTime" : 20,
+      "minDistance" : 2
+    },
+    "sit" : {
+      "timeOfDayRanges" : [ [0.6, 1.0], [0.0, 0.2] ],
+      "moveTimeLimit" : 30,
+      "searchRadius" : 10,
+      "sitRadius" : 3,
+      "cooldown" : 60,
+      "timeRange" : [15, 240]
+    },
+    "work" : {
+      "timeOfDayRanges" : [ [0.2, 0.6] ],
+      "tools" : [ [ "hoe", 0.5, 2.0] ],
+      "toolRange" : 3.0,
+      "searchDistance" : 10.0,
+      "timeRange" : [4.0, 6.0],
+      "cooldown" : 10.0
+    },
+
+    "chat" : {
+      "distanceRange" : [2.0, 4.0],
+      "conversations" : [
+        [
+          [2, "blabbering", "idle" ],
+          [1, "idle", "laugh" ],
+          [2, "idle", "blabbering" ],
+          [1, "sad", "idle" ]
+        ],
+        [
+          [2, "idle", "blabbering" ],
+          [2, "blabbering", "happy" ],
+          [1, "wink", "laugh" ],
+          [2, "happy", "happy" ]
+        ],
+        [
+          [2, "idle", "blabbering" ],
+          [2, "blabbering", "blabbering" ],
+          [2, "blabbering", "annoyed" ],
+          [3, "shouting", "shouting" ],
+          [2, "annoyed", "annoyed" ]
+        ]
+      ],
+      "cooldown" : 10
+    },
+    "dialogMode" : "sequence",
+    "dialog" : {
+      "converse" : {
+        "elduukhar" : {
+          "default" : [
+                "We should hang out sometime. Get smashed. Eat garflipps. Avoid Kevin.",
+                "My calculations are infallible. That means we're all going to die soon!",
+                "There's rumored to be a place at the edge of known space made ^yellow;entirely^reset; of shrimp.",
+                "I wonder...what if we're entirely wrong about everything?"
+          ]
+        },
+        "slimeperson" : {
+          "default" : [
+                "I'm sorry if my appearance bothers you. That's your problem, not mine.",
+                "My odour is none of your concern. Nor are the circumstances of my birth, so do not ask.",
+                "Ever had a feeling of Deja Vu?",
+                "You don't know the hell of remembering a life you never lived, so do not deign to judge my people.",
+                "Us Slimes need to stick together. We are rare, fractured, and unique.",
+                "I am the first among my people, that I know of, to obtain a doctorate.",
+                "Life for a Slime is one of horrified looks, threatened whispers and being hated for something we cannot help.",
+                "This is why I practice science here. I can be safe, and not worry about the prejudices present in the universe."
+          ]
+        },
+        "veluu" : {
+          "default" : [
+                "Mrowr. There is a constant source of aggravation that plagues us, and its name is Kevin.",
+                "I can do a backflip. I have it on good authority that you are not able to do so.",
+                "Mmmmrrowr.",
+                "You look like you do not groom yourself enough. I suggest you emulate my people. None are cleaner.",
+                "I long for the hunt, but my mind is far more valuable a tool."
+          ]
+        },
+        "fuizku" : {
+          "default" : [
+                "I honestly had no idea it was possible to coat this entire facility with lip gloss. That was an interesting day.",
+                "I'd bet 1000 pixels that you can't lick your elbows without dislocating bones.",
+                "Let us rejoice and dance the dance of joy.",
+                "Beauty is in the eye of the beholder. My people know this better than most.",
+                "What are you staring at? There is science to do!",
+                "There is no reality in which you are smarter than I.",
+                "I'd love to skin a ponex and stuff its rotting carcass. Taxidermy is a hobby of mine, and Ponexes are horrifying flesh-devouring monsters.",
+                "Dogs are incapable of flight. Who knew? Sorry, Fluffy! *sob*",
+                "There is no reality in which you are smarter than I."
+          ]
+        },
+        "fuanodyne" : {
+          "default" : [
+                "If I see Kevin before lunch, I am going to get Thorlokk to pummel him into pulp.",
+                "Watch your step. I hear Kevin has been hiding weird crap all over the station again.",
+                "Another day, another dollar. And another annoying prank.",
+                "Ever seen a Garflipp? They are weird worms capable of psionic cleansing...something no other known species can accomplish.",
+                "I am recording all of our social interactions for data. I hope you don't mind.",
+                "One of these days this trash can will do something interesting. Today is not that day.",
+                "Is it difficult being fleshy? I often wonder what it feels like to chew things, or to excrete waste. These are things I shall never experience."
+          ]
+        },
+        "fumantizi" : {
+          "default" : [
+                "I was to be a sandwich maker, like my father before me. But I chose a lesser path in life: Knowledge. I'll leave the sandwiches to true masters.",
+                "You aren't one of those people that use...white bread...with their sandwiches, are you? We can't be friends if this is the case.",
+                "<entityname>! <entityname>! <entityname>! <entityname>!",
+                "<entityname>, why is it you have such a high body count? Do you just walk around murdering everything?",
+                "I'm Kevin. Everyone here hates me. This pleases me.",
+                "I lie all the time. By the way, I'm Kevin.",
+                "I'm <entityname>,<entityname>. You cannot also be <entityname>. Change your name. I won't.",
+                "There is a universal conspiracy whispered that Mantizi invented bread. If we had invented bread, we would have first had to invent the universe.",
+                "I'm Kevin. I am well loved around here.",
+                "Life is 27.3% less enjoyable when wearing pants. Prove me wrong.",
+                "I could make a career out of sandwich making, but that seems so ....plain.",
+                "I once went without pants for 3 full cycles. This was during my earlier years.",
+                "There's no easy way to say this...so I won't.",
+                "You smell exactly like garflipps. Why?",
+                "<entityname>",
+                "<entityname> is an interesting name. It reminds me of a philosopher of my people, Jeff. He came up with the noble profession of Sandwich Maker.",
+                "There are three types of people. You're the good kind. Flavor-wise, I mean.",
+                "It smells like mushrooms and everyone looks like they want to kill me. Just like home!",
+                "I can't believe nobody noticed the lip gloss...",
+                "I'm debating on the merits of strange matter for my next amazing sculpture. Thoughts? And don't bother with that 'it's going to kill us all' nonsense.",
+                "I once defeated a Xar in a farting contest. That's really hard to do, given that my people don't have buttcheeks.",
+                "There are exactly three stenches that get me excited. Four, now. The fourth is you.",
+                "How many waffles can you fit in a single catheter bag?",
+                "I'd imagine somewhere between zero and thirty.",
+                "I guess it would depend on how they were added. Are they solid waffles? Liquified? Have they been garflipped?",
+                "I'm going to uncover this mystery, and the entire universe will thank me for it. Who doesn't love a waffle?",
+                "I'm absolutely positive that there are medical applications to stabbing.",
+                "Look, you have a mod conflict installed. Go to your starbound.log and check. Hah! Made you look. But really, keep an eye on your mods, stupid.",
+                "Have you ever wondered why you aren't currently dead? I do all the time.",
+                "Don't believe the infraction log. That was...a different Kevin. Honest.",
+                "Stop staring at my pecs, <entityname>.",
+                "Earth? Never did get a chance to go there. I heard it was pretty nice.",
+                "That's my cloaca. My eyes are up here. Surely my gender cannot be that important to you.",
+                "Nobody loves you. Except for me. Work with me. Why? Dancing velociraptors. Need I say more?",
+                "I like filling briefcases and boxes with super fun things and then selling them. Or giving them away!",
+                "Have you ever been hugged by intestines? Oddly comforting, really.",
+                "Unfortunately, you can't hide weapons in a urethra. I've tried. The subjects always get irate.",
+                "There is no way to alter the gender of a starfish using only a hammer. You win this time, nature.",
+                "You look like you want to judge me. But I watched what you did using my infini-cam.",
+                "I can't believe you killed the *entire* village.",
+                "You're a murderer.",
+                "I wondered why humans looked uncomfortably when I asked if I could use a nutcracker on them. I later found out that human language has...interesting intricacies",
+                "What? No, I am most certainly *not* an avatar of an Elder God. Why would you insinuate such a thing? I'm not handsome enough.",
+                "I have quite thoroughly mastered the art of placing smaller things into larger things. Few can surpass me in the art of stacking. It's not a particularly -useful- skill, but there you have it.",
+                "I've been watching you for a very long time, <entityname>. You do really strange things in your free time. Really, really strange.",
+                "Meditating in a field of tendrils as you listen to the calming wails of a stillborn planet is the best way to meditate on the nature of the universe. Trust me.",
+                "I have convinced one of the staff here that they should sneak into your ship to watch you sleep. For science. I may have implied that you were immortal."
+          ]
+        },
+        "fukirhos" : {
+          "default" : [
+                "Recently I purchased a new FTL drive. This sweet baby is going to impress my Arkology so much!",
+                "It even has an auto-failsafe in its quantum-state capacitor. The third of its kind! Of course, it isn't strictly ^red;legal^reset; by Protectorate standards...so lets keep that between us.",
+                "Might we exchange pleasantries when I am not working? I have to complete this horticultural examination.",
+                "There is no greater threat to sanity than boredom. Never let your mind be totally idle!",
+                "Don't invest in Sigma-Tyovis at this point in time. Their market value is a bit too volatile. Futures projections are grim.",
+                "I'd bet money on just about any wager if the stakes are right. Why, last Tuesday I made 4 million pixels from Kevin. I should probably be more concerned about this than I am.",
+                "I find it exceptionally difficult to adjust to new gravity fields. I prefer artificial gravity like we have at home on the Novustech Arkology.",
+                "Where do you hail from? I don't see many folks like you around here.",
+                "<entityname>! Nice to see you. We should have lunch sometime and discuss your stocks!"
+          ]
+        },
+        "thelusian" : {
+          "default" : [
+                "xk-ch-ch kth!",
+                "^yellow;*clicks*^reset; If you annoy me, I'll beat the stupid right out of you.",
+                "I often wonder at how much force it would take to crush Kevins windpipe. That guy sucks.",
+                "Back off, fleshy one. I require personal space.",
+                "My Queen will return one day, and I shall rejoin the hive."
+          ]
+        },
+        "fumantis" : {
+          "default" : [
+                "I'm going to strangle Kevin to death while he sleeps if he licks my lab notes again.",
+                "Underneath my carapace is a heart of gold.",
+                "Ever wonder why humans record their acts of mating for entertainment? It is baffling. Soon, it may be all that remains of them."
+          ]
+        },
+        "fudarkizku" : {
+          "default" : [
+                "I honestly had no idea it was possible to coat this entire facility with lip gloss. That was an interesting day.",
+                "I'd bet 1000 pixels that you can't lick your elbows without dislocating bones.",
+                "Let us rejoice and dance the dance of joy.",
+                "Beauty is in the eye of the beholder. My people know this better than most.",
+                "What are you staring at? There is science to do!",
+                "There is no reality in which you are smarter than I.",
+                "I'd love to skin a ponex and stuff its rotting carcass. Taxidermy is a hobby of mine, and Ponexes are horrifying flesh-devouring monsters.",
+                "Dogs are incapable of flight. Who knew? Sorry, Fluffy! *sob*",
+                "There is no reality in which you are smarter than I."
+          ]
+        },
+        "apex" : {
+          "default" : [
+                "I wish these glasses fit me properly. But they don't. As a result I look like an idiot. Thanks, Kevin.",
+                "I am currently designing a bio-agent keyed to Kevin's immune system. It will give him chronic vomiting issues for a long, long time."
+          ]
+        },
+        "human" : {
+          "default" : [
+                "There's so much data for me to record around here. It is fascinating.",
+                "Hopefully this location will be a good place for my research into what happened to Earth.",
+                "I'm writing a research paper on biodiversity. It will be extremely important.",
+                "I'm not quite sure yet, but I think my hypothesis is correct. More testing is required."
+          ]
+        },
+        "floran" : {
+          "default" : [
+                "I'd love to ssskin a ponex and ssstuff its rotting carcassss. Taxidermy isss a hobby of mine.",
+                "I'm hesssitant to publisssh these findings. Sssome things should not be shared, but instead...ssstabbed!",
+                "I ssswears I am reformified and no longer eatsss fleshes of sssentients. Mostly."
+          ]
+        },
+        "avian" : {
+          "default" : [
+                "I have no qualms about flight. It's the landing that presents the issue.",
+                "Personally, I think religion is a sham and should be erased from existence. My people, shamefully, disagree.",
+                "I often wonder exactly what is wrong with people that think sentient mystical ponies are acceptable entertainment sources.",
+                "I mean, just look at these stupid things! How do they operate machinery? They have hooves! And building castles? How?",
+                "And don't spew that cop-out 'magic' nonsense. There's no such thing!"
+          ]
+        },
+        "hylotl" : {
+          "default" : [
+                "^cyan;Silicon^reset;? That's easy. Loose Silt sand, in an extractor. How do you not know this by now?",
+                "Everything you know is wrong. Science has proven this to us time and time again. I sense another breakthrough of this nature is coming soon.",
+                "Universal Constants are that way for a reason. Why am I trying to change one?!?! I'm a ^yellow;genius^reset;, thats why!",
+                "Whatever you do, never trust Kevin. Not entirely. His heart is in the right place. His mind, on the other hand..."
+          ]
+        },
+        "glitch" : {
+          "default" : [
+            "Distinguished. I have obtained no less than 11 scientific accolades.",
+            "Pleased. You are a well respected member of this research community.",
+            "Informative. There are 1,282 follicles on your nose. Each appears to be more hateful than the last.",
+            "Annoyed. Kevin. Why does he exist?"
+          ]
+        },
+        "novakid" : {
+          "default" : [
+                "Agreeing to disagree is always preferable to the alternative.",
+                "I kin' feel fer the people with nobody to love. Grief ain't nothin' to wish on anyone.",
+                "I may not have what ye'd call a 'degree' in science, but I kin sure get the research done if I'm needin' ter!",
+                "Sometimes I feel a bit lonely. When that 'appens, I'll jes' sing ter myself softly. Often in the dark.",
+                "Life kin be bad from time ter time. When yer feeling down, you just need ter find yer center again.",
+                "I hear someone 'eer found a new dimension called...er...K4VC-9? 'Parently, it's all made o' shrimps!"
+          ]
+        }
+      }
+    }
+  },
+  "humanoidTiming" : {
+    "stateCycle" : [1.0, 0.75, 0.75, 0.25, 0.25, 0.50, 0.50, 1.0, 1.0, 1.0],
+    "stateFrames" : [1, 8, 8, 4, 4, 7, 2, 1, 1, 1],
+    "emoteCycle" : [1.0, 0.3, 0.3, 0.3, 1.0, 0.3, 0.5, 1.0, 1.0, 1.0, 1.0, 0.5, 0.3, 1],
+    "emoteFrames" : [1, 2, 2, 2, 5, 2, 2, 2, 2, 3, 3, 5, 2, 2]
+  },
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "glasses2head" } ],
+            "chest" : [ { "name" : "scientistchest", "parameters" : { "colorIndex" : 8 } } ],
+            "legs" : [ { "name" : "scientistlegs", "parameters" : { "colorIndex" : 6 } } ]
+          }
+        ] ]
+    ]
+  }
+}

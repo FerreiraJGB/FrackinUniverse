@@ -1,0 +1,15 @@
+{
+    "itemName": "peglacimetalpanel",
+    "category": "block",
+    "rarity": "Common",
+    "inventoryIcon": "peglacimetalpanel.png",
+    "dropCollision": [
+        -2.5,
+        -2.0,
+        2.5,
+        2.0
+    ],
+    "description": "A panel made of a secret Peglaci alloy.\n^green;Extractable^reset;.",
+    "shortdescription": "Alloy Panel",
+    "materialId": 3511
+}

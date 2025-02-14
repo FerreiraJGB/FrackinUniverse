@@ -1,0 +1,32 @@
+{
+	"itemName": "ocularoobleck",
+	"rarity": "uncommon",
+	"price": 35,
+	"category": "preparedFood",
+	"inventoryIcon": "ocularoobleck.png",
+	"description": "A meaty, mysterious menagerie of eyes and oculemon. ^cyan;+^reset;10^green;% Energy^reset;^red; Poison^reset; 10s^reset; ^blue;Madness Gain^reset; 3 ^green;Type: Meaty Plant^reset;",
+	"shortdescription": "Ocular Oobleck",
+	"effects": [
+        ["madnessgain2", "meat_plant",
+        {
+            "effect": "maxenergyscalingboostfood",
+            "duration": 90,
+            "energyModifier": 1.10
+        },
+		{
+				"effect": "weakpoison",
+                "duration": 10
+            },
+        {       "effect": "glow",
+                "duration": 180
+            }
+        ]
+    ],
+	"foodValue": 25,
+	"tooltipKind": "food",
+	"builder": "/items/buildscripts/buildfood.lua",
+	"maxStack": 1,
+	"itemAgingScripts": ["/scripts/items/rotting.lua"],
+	"rottingMultiplier": 1,
+	"blockingEffects": ["wellfed"]
+}

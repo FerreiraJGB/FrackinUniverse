@@ -1,0 +1,25 @@
+{
+	"itemName": "fletchweedstem",
+	"inventoryIcon": "fletchweedstem.png",
+	"category": "food",
+	"rarity": "Legendary",
+	"price": 5,
+
+	"tooltipKind": "food",
+	"description": "^yellow;^reset;^cyan;+145 EP^reset;: 1m",
+	"shortdescription": "Fletchweed Stem",
+	"effects": [
+		[{
+			"effect": "maxenergyboost145",
+			"duration": 60
+		}]
+	],
+	"blockingEffects": [
+		"maxenergyboost1",
+		"maxenergyboost2",
+		"maxenergyboost3",
+		"maxenergyboost4",
+		"maxenergyboost5",
+		"maxenergyboost6"
+	]
+}

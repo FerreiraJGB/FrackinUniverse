@@ -1,0 +1,28 @@
+{
+  "layers" : [
+    {
+      "kind" : "tile/infernusnewfront",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.0,
+      "repeatY" : true,
+      "baseCount" : 2
+    },
+    {
+      "kind" : "tile/infernusnew",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.2,
+      "repeatY" : true,
+      "baseCount" : 2
+    },
+    {
+      "kind" : "tile/infernusunderground",
+      "nohueshift" : false,
+      "lightMapped" : true,
+      "parallax" : 1.5,
+      "repeatY" : true,
+      "baseCount" : 3
+    }
+  ]
+}

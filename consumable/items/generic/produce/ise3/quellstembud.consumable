@@ -1,0 +1,26 @@
+{
+	"itemName": "quellstembud",
+	"inventoryIcon": "quellstembud.png",
+	"category": "food",
+	"rarity": "Legendary",
+	"price": 5,
+
+	"tooltipKind": "food",
+	"description": "^yellow;^reset;^cyan;25% Fire Res & Immune: Burning, Lava^reset;, ^cyan;Immune^reset;:  Extreme Heat: 1m",
+	"shortdescription": "Quellstem Bud",
+	"effects": [
+		[{
+				"effect": "lavaimmunity",
+				"duration": 60
+			},
+			{
+				"effect": "ffextremeheatimmunity",
+				"duration": 60
+			},
+			{
+				"effect": "fireblock",
+				"duration": 60
+			}
+		]
+	]
+}

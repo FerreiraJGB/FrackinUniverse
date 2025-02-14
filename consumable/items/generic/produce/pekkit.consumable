@@ -1,0 +1,19 @@
+{
+	"itemName": "pekkit",
+	"inventoryIcon": "pekkiticon.png",
+	"category": "food",
+	"price": 5,
+	"rarity": "Uncommon",
+
+	"tooltipKind": "food",
+	"description": "^yellow;^reset;^cyan;200% Ice Thorns^reset;: 1m",
+	"shortdescription": "Pekkit",
+
+	//"learnBlueprintsOnPickup": ["pekkitfreeze_freezegrenade"],
+	"effects": [
+		[{
+			"effect": "iceburst",
+			"duration": 60
+		}]
+	]
+}

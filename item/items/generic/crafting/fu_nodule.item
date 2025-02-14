@@ -1,0 +1,13 @@
+{
+  "itemName" : "fu_nodule",
+  "rarity" : "Common",
+  "price" : 60,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "fu_nodule.png",
+  "tooltipKind" : "fossil",
+  "description" : "Primarily found in rare deep-water plants, this unusual compound is rich with aberrant genes.",
+  "shortdescription" : "Strange Nodule",
+  "radioMessagesOnPickup" : [ "pickupNodule" ],
+  //"learnBlueprintsOnPickup" : [ "mutagene4", "mireurchinseed", "whitespine", "fuatropusaxe","fuatropusgreataxe","fuatropusbroadsword","fuatropushammer","fuatropusdagger","fuatropusshortspear","fuatropusspear","fuatropusshortsword","fuatropusscythe"],
+  "itemTags" : [ "reagent" ]
+}

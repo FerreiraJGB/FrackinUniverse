@@ -1,0 +1,24 @@
+{
+  "materialId" : 3506,
+  "materialName" : "peglacipykretestrip",
+  "particleColor" : [200, 200, 200, 255],
+  "itemDrop" : "peglacipykretestrip",
+  "shortdescription" : "Pykrete Strip",
+  "description" : "A decorative strip made of pykrete.",
+  "glitchDescription" : "Analysis. This strip is made from a mixture of ice and finely ground wood pulp.",
+  "floranDescription" : "Floran lick ice, tongue get sstuck.",
+
+  "footstepSound" : "/sfx/blocks/footstep_stone.ogg",
+  "health" : 6,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "peglacipykretestrip.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 1880
+  }
+}

@@ -1,0 +1,18 @@
+{
+	"itemName": "stranglevineroot",
+	"inventoryIcon": "stranglevineroot.png",
+	"category": "food",
+	"rarity": "Uncommon",
+	"price": 5,
+
+	"tooltipKind": "food",
+	"description": "^yellow;^reset;^cyan;+101% Physical Thorns^reset;: 1m",
+	"shortdescription": "Stranglevine Root",
+
+	"effects": [
+		[{
+			"effect": "thornsstranglevine",
+			"duration": 60
+		}]
+	]
+}

@@ -1,0 +1,13 @@
+{
+  "itemName" : "avaliplatform",
+  "category" : "platform",
+  "rarity" : "Common",
+  "price" : 0,
+  "inventoryIcon" : "avaliplatform.png",
+  "description" : "A platform of Avali design.",
+  "shortdescription" : "Avali Platform",
+  "glitchDescription" : "Statement. An Avali platform.",
+  "floranDescription" : "Floorrr.",
+ // "learnBlueprintsOnPickup" : [ "avaliplatform" ],
+  "materialId" : 12520
+}

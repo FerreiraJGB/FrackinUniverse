@@ -1,0 +1,12 @@
+[
+    {
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Open Curved Fungal Pod"
+    },
+    { 
+        "op" : "add",
+        "path" : "/printable",
+        "value" : false
+    }
+]
